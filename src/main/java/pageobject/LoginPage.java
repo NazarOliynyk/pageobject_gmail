@@ -20,15 +20,15 @@ public class LoginPage extends AbstractPage {
     private WebElement proceedWithPasswordButton;
 
     public void typeEmailAndSubmit(String email){
-        getElementWithWait(emailInput).sendKeys(email);
-        getElementWithWait(proceedWithEmailButton).click();
         logToAllureInfo("Submitting email");
+        waitUntilVisibilityAndGetElement(emailInput).sendKeys(email);
+        waitUntilVisibilityAndGetElement(proceedWithEmailButton).click();
     }
 
     public HomePage typePasswordAndSubmit(String password){
-        getElementWithWait(passwordInput).sendKeys(password);
-        getElementWithWait(proceedWithPasswordButton).click();
         logToAllureInfo("Submitting password and proceeding to HomePage");
+        waitUntilVisibilityAndGetElement(passwordInput).sendKeys(password);
+        waitUntilVisibilityAndGetElement(proceedWithPasswordButton).click();
         return new HomePage();
     }
 

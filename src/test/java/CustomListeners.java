@@ -1,6 +1,5 @@
-import driver.DriverFactory;
+import driver.DriverManager;
 import io.qameta.allure.Attachment;
-import logger.AllureLogger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -30,7 +29,7 @@ public class CustomListeners implements ITestListener {
     @Override
     public void onStart(ITestContext iTestContext) {
         logToAllureInfo("I am in onStart method " + iTestContext.getName());
-        iTestContext.setAttribute("WebDriver", DriverFactory.getDriver());
+        iTestContext.setAttribute("WebDriver", DriverManager.getDriver());
     }
 
     @Override
@@ -46,7 +45,7 @@ public class CustomListeners implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
         logToAllureInfo("I am in onTestSuccess method " + getTestMethodName(iTestResult) + " succeed");
-        WebDriver driver = DriverFactory.getDriver();
+        WebDriver driver = DriverManager.getDriver();
         if (driver != null) {
             logToAllureInfo("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenShot(driver);
@@ -57,7 +56,7 @@ public class CustomListeners implements ITestListener {
     @Override
     public void onTestFailure(ITestResult iTestResult) {
         logToAllureError("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
-        WebDriver driver = DriverFactory.getDriver();
+        WebDriver driver = DriverManager.getDriver();
         if (driver != null) {
             logToAllureInfo("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenShot(driver);

@@ -4,8 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import static logger.AllureLogger.logToAllureInfo;
+import static utils.Utils.isDisplayed;
 
-public class HomePage extends AbstractPage{
+public class HomePage extends AbstractPage {
 
     @FindBy(xpath = "//img[@class='gb_La gbii']")
     private WebElement accountWindow;
@@ -13,14 +14,14 @@ public class HomePage extends AbstractPage{
     @FindBy(id = "gb_71")
     private WebElement exitButton;
 
-    public boolean isAccountOptionsPresent(){
-        return isDisplayed(getElementWithWait(accountWindow));
+    public boolean isAccountOptionsPresent() {
+        return isDisplayed(waitUntilVisibilityAndGetElement(accountWindow));
     }
 
-    public void logOut(){
-        getElementWithWait(accountWindow).click();
-        getElementWithWait(exitButton).click();
+    public void logOut() {
         logToAllureInfo("Log out from the Account");
+        waitUntilVisibilityAndGetElement(accountWindow).click();
+        waitUntilVisibilityAndGetElement(exitButton).click();
     }
 
 }

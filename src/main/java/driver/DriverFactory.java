@@ -7,39 +7,26 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
 
 import static logger.AllureLogger.logToAllureWarn;
-import static utils.PropertyFileHandler.CHROME_DRIVER;
-import static utils.PropertyFileHandler.CHROME_DRIVER_PATH;
-import static utils.PropertyFileHandler.GECKO_DRIVER;
-import static utils.PropertyFileHandler.GECKO_DRIVER_PATH;
+import static utils.PropertyFileHandler.*;
 
 public class DriverFactory {
 
-    private static WebDriver driver;
-
-    public static void buildDriver(final String browserName) {
-
-        if (browserName.equalsIgnoreCase(CHROME_DRIVER)) {
+    static WebDriver buildDriver(final DriverName browserName) {
+        WebDriver driver = null;
+        if (browserName.equals(DriverName.CHROME_DRIVER)) {
+            logToAllureWarn("Chrome driver is started");
             System.setProperty(CHROME_DRIVER, CHROME_DRIVER_PATH);
             driver = new ChromeDriver();
-            logToAllureWarn("Chrome driver is started");
-        } else if (browserName.equalsIgnoreCase(GECKO_DRIVER)) {
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
+        } else if (browserName.equals(DriverName.GECKO_DRIVER)) {
+            logToAllureWarn("Firefox(Gecko) driver is started");
             System.setProperty(GECKO_DRIVER, GECKO_DRIVER_PATH);
             driver = new FirefoxDriver();
-            logToAllureWarn("Firefox(Gecko) driver is started");
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         }
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-    }
-
-    public static WebDriver getDriver() {
         return driver;
-    }
-
-    public static void quitDriver() {
-        if (driver != null) {
-            driver.quit();
-            driver = null;
-            logToAllureWarn("Driver quit");
-        }
     }
 }

@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 import static logger.AllureLogger.logToAllureInfo;
 
-public class SingleLetterPage extends AbstractPage{
+public class SingleLetterPage extends AbstractPage {
 
     @FindBy(xpath = "//textarea[@class='vO']")
     private WebElement recipientInput;
@@ -19,15 +19,15 @@ public class SingleLetterPage extends AbstractPage{
     @FindBy(xpath = "//div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']")
     private WebElement sendEmailButton;
 
-    public void fillLetter(String recipientEmail, String subject, String content){
-        getElementWithWait(recipientInput).sendKeys(recipientEmail);
-        getElementWithWait(subjectInput).sendKeys(subject);
-        getElementWithWait(mainTextArea).sendKeys(content);
+    public void fillLetter(String recipientEmail, String subject, String content) {
         logToAllureInfo("Filling fields of the letter");
+        waitUntilVisibilityAndGetElement(recipientInput).sendKeys(recipientEmail);
+        waitUntilVisibilityAndGetElement(subjectInput).sendKeys(subject);
+        waitUntilVisibilityAndGetElement(mainTextArea).sendKeys(content);
     }
 
-    public void sendLetter(){
-        getElementWithWait(sendEmailButton).click();
+    public void sendLetter() {
+        waitUntilVisibilityAndGetElement(sendEmailButton).click();
         logToAllureInfo("Sending the letter");
     }
 }

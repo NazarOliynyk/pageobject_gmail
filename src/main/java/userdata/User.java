@@ -30,10 +30,10 @@ public class User implements Serializable {
     public boolean setEmail(String email) {
         Matcher matcher = VALID_EMAIL_ADDRESS_REGEX.matcher(email);
         boolean isValid = matcher.find();
-        if(isValid){
+        if (isValid) {
             this.email = email;
             return isValid;
-        }else {
+        } else {
             return false;
         }
     }

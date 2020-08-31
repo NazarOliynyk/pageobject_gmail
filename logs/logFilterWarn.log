@@ -5,3 +5,40 @@
 [WARN ] 2020-08-29 23:12:32.580 AllureLogger:23 - Logged to allure: User data extracted successfully
 [WARN ] 2020-08-29 23:13:32.093 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter. Subject: Test subject
 [WARN ] 2020-08-29 23:13:49.411 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-08-29 23:32:08.135 AllureLogger:23 - Logged to allure: I am in onTestSkipped method testSendAndDeleteLetter skipped
+[WARN ] 2020-08-29 23:34:33.628 AllureLogger:23 - Logged to allure: Firefox(Gecko) driver is started
+[WARN ] 2020-08-29 23:34:43.334 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-08-29 23:37:15.801 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-08-31 17:33:34.249 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-08-31 17:33:37.234 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-08-31 17:35:04.166 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter. Subject: Test subject
+[WARN ] 2020-08-31 17:35:22.998 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-08-31 17:37:04.863 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-08-31 17:37:07.187 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-08-31 17:38:19.164 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-08-31 21:55:55.335 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-08-31 21:56:59.183 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-08-31 21:58:47.562 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-08-31 21:59:06.577 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-08-31 22:01:01.864 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-08-31 22:01:16.713 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-08-31 22:02:29.690 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-08-31 22:03:39.963 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-08-31 22:03:55.243 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-08-31 22:04:46.520 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-08-31 22:04:55.365 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-08-31 23:21:18.970 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-08-31 23:22:34.517 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-08-31 23:24:10.768 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-08-31 23:26:31.244 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-08-31 23:26:46.643 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-08-31 23:27:53.227 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-08-31 23:28:07.945 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-01 00:11:06.670 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-01 00:12:09.481 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-09-01 00:13:48.441 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-01 00:13:59.984 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-01 00:16:52.160 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-01 00:17:07.903 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-09-01 00:18:09.003 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-01 00:18:26.545 AllureLogger:23 - Logged to allure: Driver quit

@@ -1,1 +1,12 @@
 [ERROR] 2020-08-29 23:11:04.581 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-08-29 23:36:18.967 AllureLogger:18 - Logged to allure: null
+[ERROR] 2020-08-29 23:36:40.434 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-08-31 17:34:48.895 AllureLogger:18 - Logged to allure: null
+[ERROR] 2020-08-31 17:35:12.713 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-08-31 17:37:45.542 AllureLogger:18 - Logged to allure: null
+[ERROR] 2020-08-31 17:38:14.533 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-08-31 21:58:53.641 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-08-31 22:02:24.165 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-08-31 22:04:51.266 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-08-31 23:24:03.278 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-09-01 00:13:51.397 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
