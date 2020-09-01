@@ -15,7 +15,6 @@ public class HandleLettersPage extends AbstractPage {
 
     public SingleLetterPage openCreateLetterForm(){
         logToAllureInfo("Opening a new letter form");
-        waitUntilDocumentReadyState();
         waitUntilVisibilityAndGetElement(composeButton).click();
         return new SingleLetterPage();
     }

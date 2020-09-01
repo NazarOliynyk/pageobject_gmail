@@ -42,3 +42,9 @@
 [WARN ] 2020-09-01 00:17:07.903 AllureLogger:23 - Logged to allure: User data extracted successfully
 [WARN ] 2020-09-01 00:18:09.003 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
 [WARN ] 2020-09-01 00:18:26.545 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-01 23:33:27.032 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-01 23:33:46.675 AllureLogger:23 - Logged to allure: User data extracted successfully
+[WARN ] 2020-09-01 23:35:11.654 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-01 23:35:20.235 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: вт, 1 вер. 2020, 23:35
+[WARN ] 2020-09-01 23:35:29.313 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: вт, 1 вер. 2020, 23:22
+[WARN ] 2020-09-01 23:35:32.818 AllureLogger:23 - Logged to allure: Driver quit

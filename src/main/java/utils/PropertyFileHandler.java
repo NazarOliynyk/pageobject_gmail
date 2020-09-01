@@ -15,7 +15,9 @@ public class PropertyFileHandler {
     public static final String MAIN_URL;
     public static final String RECIPIENT_EMAIL;
     public static final String SUBJECT;
+    static final String DEFAULT_SUBJECT;
     public static final String CONTENT;
+    static final String DEFAULT_CONTENT;
     public static final int FLUENT_WAIT_TIMEOUT;
     public static final int POLLING;
 
@@ -35,7 +37,9 @@ public class PropertyFileHandler {
         MAIN_URL = prop.getProperty("main_url");
         RECIPIENT_EMAIL = prop.getProperty("recipient_email");
         SUBJECT = prop.getProperty("subject");
+        DEFAULT_SUBJECT = prop.getProperty("default_subject");
         CONTENT = prop.getProperty("content");
+        DEFAULT_CONTENT = prop.getProperty("default_content");
         FLUENT_WAIT_TIMEOUT = Integer.parseInt(prop.getProperty("timeout"));
         POLLING = Integer.parseInt(prop.getProperty("polling"));
     }

@@ -19,11 +19,22 @@ public class SentLettersPage extends AbstractPage {
     @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]//span[@class='bog']/span")
     private WebElement subjectOfTheLastLetterTag;
 
+    @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]/td[@class='xW xY ']/span")
+    private WebElement timeTagOfTheLastLetter;
+
     @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]/td[@class='oZ-x3 xY']")
     private WebElement selectLastLetterCheckBox;
 
     @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']")
     private WebElement deleteSelectedLetterIcon;
+
+
+    public int getSizeOfLettersList() {
+        waitUntilDocumentReadyState();
+        int size = allLetters.size();
+        logToAllureInfo("Calculating the size of letter List: " + size);
+        return size;
+    }
 
     public String getLastLetterSubject() {
         logToAllureWarn("Getting text from the subject of a letter ");
@@ -31,11 +42,11 @@ public class SentLettersPage extends AbstractPage {
         return waitUntilVisibilityAndGetElement(subjectOfTheLastLetterTag).getText();
     }
 
-    public int getSizeOfLettersList() {
+    public String getExactTimeOfTheLastLetterInList(){
         waitUntilDocumentReadyState();
-        int size = allLetters.size();
-        logToAllureInfo("Calculating the size of letter List: " + size);
-        return size;
+        String exactTime = timeTagOfTheLastLetter.getAttribute("title");
+        logToAllureWarn("Getting exact time from the last letter in the list of letters: "+ exactTime);
+        return exactTime;
     }
 
     public void selectLastLetter() {

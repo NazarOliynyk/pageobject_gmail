@@ -437,3 +437,53 @@
 [INFO ] 2020-09-01 00:18:17.787 AllureLogger:13 - Logged to allure: Screenshot captured for test case:testSendAndDeleteLetter 
 [WARN ] 2020-09-01 00:18:26.545 AllureLogger:23 - Logged to allure: Driver quit 
 [INFO ] 2020-09-01 00:18:31.837 AllureLogger:13 - Logged to allure: I am in onFinish method LogInSendLetterAndDeleteLetterTest 
+[INFO ] 2020-09-01 23:33:26.782 AllureLogger:13 - Logged to allure: I am in onStart method LogInSendLetterAndDeleteLetterTest 
+[WARN ] 2020-09-01 23:33:27.032 AllureLogger:23 - Logged to allure: Chrome driver is started 
+[INFO ] 2020-09-01 23:33:27.116 AllureLogger:13 - Logged to allure: Constants are extracted from the property file 
+[WARN ] 2020-09-01 23:33:46.675 AllureLogger:23 - Logged to allure: User data extracted successfully 
+[INFO ] 2020-09-01 23:33:49.244 AllureLogger:13 - Logged to allure: I am in onTestStart method testSendAndDeleteLetter start 
+[INFO ] 2020-09-01 23:33:49.750 AllureLogger:13 - Logged to allure: Initialize PageFactory in: pageobject.LoginPage 
+[INFO ] 2020-09-01 23:33:50.151 AllureLogger:13 - Logged to allure: Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-01 23:33:55.392 AllureLogger:13 - Logged to allure: Submitting email 
+[INFO ] 2020-09-01 23:33:55.513 AllureLogger:13 - Logged to allure: Waiting for element: (  id: identifierId ) 
+[INFO ] 2020-09-01 23:33:57.972 AllureLogger:13 - Logged to allure: Waiting for element: (  id: identifierNext ) 
+[INFO ] 2020-09-01 23:33:59.278 AllureLogger:13 - Logged to allure: Submitting password and proceeding to HomePage 
+[INFO ] 2020-09-01 23:34:04.107 AllureLogger:13 - Logged to allure: Waiting for element: (  name: password ) 
+[INFO ] 2020-09-01 23:34:06.656 AllureLogger:13 - Logged to allure: Waiting for element: (  id: passwordNext ) 
+[INFO ] 2020-09-01 23:34:07.313 AllureLogger:13 - Logged to allure: Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-01 23:34:30.594 AllureLogger:13 - Logged to allure: Waiting for element: (  xpath: //img[@class='gb_La gbii'] ) 
+[INFO ] 2020-09-01 23:34:35.247 AllureLogger:13 - Logged to allure: Checking if element: (  xpath: //img[@class='gb_La gbii'] ) is displayed 
+[INFO ] 2020-09-01 23:34:39.534 AllureLogger:13 - Logged to allure: Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-01 23:34:39.538 AllureLogger:13 - Logged to allure: Opening a new letter form 
+[INFO ] 2020-09-01 23:34:46.083 AllureLogger:13 - Logged to allure: Waiting for element: (  css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-01 23:34:56.436 AllureLogger:13 - Logged to allure: Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-01 23:34:56.438 AllureLogger:13 - Logged to allure: Filling fields of the letter 
+[INFO ] 2020-09-01 23:35:01.281 AllureLogger:13 - Logged to allure: Waiting for element: (  xpath: //textarea[@class='vO'] ) 
+[INFO ] 2020-09-01 23:35:03.110 AllureLogger:13 - Logged to allure: Waiting for element: (  name: subjectbox ) 
+[INFO ] 2020-09-01 23:35:04.028 AllureLogger:13 - Logged to allure: Waiting for element: (  xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-01 23:35:05.923 AllureLogger:13 - Logged to allure: Waiting for element: (  xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-01 23:35:08.692 AllureLogger:13 - Logged to allure: Sending the letter 
+[INFO ] 2020-09-01 23:35:08.693 AllureLogger:13 - Logged to allure: Opening the page with sent letters 
+[INFO ] 2020-09-01 23:35:08.694 AllureLogger:13 - Logged to allure: Waiting for the ready state of document  
+[INFO ] 2020-09-01 23:35:10.172 AllureLogger:13 - Logged to allure: Waiting with polling for element: (  css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-01 23:35:11.630 AllureLogger:13 - Logged to allure: Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-01 23:35:11.654 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter  
+[INFO ] 2020-09-01 23:35:11.656 AllureLogger:13 - Logged to allure: Waiting for the ready state of document  
+[INFO ] 2020-09-01 23:35:16.161 AllureLogger:13 - Logged to allure: Waiting for element: (  xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-01 23:35:18.347 AllureLogger:13 - Logged to allure: Waiting for the ready state of document  
+[INFO ] 2020-09-01 23:35:19.233 AllureLogger:13 - Logged to allure: Calculating the size of letter List: 19 
+[INFO ] 2020-09-01 23:35:19.235 AllureLogger:13 - Logged to allure: Waiting for the ready state of document  
+[WARN ] 2020-09-01 23:35:20.235 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: вт, 1 вер. 2020, 23:35 
+[INFO ] 2020-09-01 23:35:20.238 AllureLogger:13 - Logged to allure: Selecting last letter check box 
+[INFO ] 2020-09-01 23:35:20.239 AllureLogger:13 - Logged to allure: Waiting for the ready state of document  
+[INFO ] 2020-09-01 23:35:20.635 AllureLogger:13 - Logged to allure: Waiting with polling for element: (  xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) 
+[INFO ] 2020-09-01 23:35:27.962 AllureLogger:13 - Logged to allure: Deleting selected letter 
+[INFO ] 2020-09-01 23:35:28.053 AllureLogger:13 - Logged to allure: Waiting for element: (  xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru'] ) 
+[INFO ] 2020-09-01 23:35:28.587 AllureLogger:13 - Logged to allure: Waiting for the ready state of document  
+[INFO ] 2020-09-01 23:35:29.192 AllureLogger:13 - Logged to allure: Calculating the size of letter List: 18 
+[INFO ] 2020-09-01 23:35:29.194 AllureLogger:13 - Logged to allure: Waiting for the ready state of document  
+[WARN ] 2020-09-01 23:35:29.313 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: вт, 1 вер. 2020, 23:22 
+[INFO ] 2020-09-01 23:35:30.454 AllureLogger:13 - Logged to allure: I am in onTestSuccess method testSendAndDeleteLetter succeed 
+[INFO ] 2020-09-01 23:35:30.455 AllureLogger:13 - Logged to allure: Screenshot captured for test case:testSendAndDeleteLetter 
+[WARN ] 2020-09-01 23:35:32.818 AllureLogger:23 - Logged to allure: Driver quit 
+[INFO ] 2020-09-01 23:35:37.617 AllureLogger:13 - Logged to allure: I am in onFinish method LogInSendLetterAndDeleteLetterTest 

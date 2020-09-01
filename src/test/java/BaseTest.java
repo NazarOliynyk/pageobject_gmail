@@ -11,6 +11,8 @@ import userdata.UserDAO;
 import java.io.IOException;
 
 import static logger.AllureLogger.*;
+import static utils.Utils.initializeUserData;
+import static utils.Utils.sendDefaultLetter;
 
 @Listeners({CustomListeners.class})
 public abstract class BaseTest {
@@ -19,12 +21,8 @@ public abstract class BaseTest {
 
     @BeforeMethod
     public void beforeMethod() {
-        try {
-            logToAllureWarn("User data extracted successfully");
-            user = new UserDAO().getAll().get(0);
-        } catch (IOException | ParseException e) {
-            logToAllureError(e.getMessage());
-        }
+        user = initializeUserData().get(0);
+//        sendDefaultLetter(user);
     }
 
     @AfterMethod

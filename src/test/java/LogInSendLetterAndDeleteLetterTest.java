@@ -1,4 +1,8 @@
+import businessobject.DeletingLettersBO;
+import businessobject.LoginationBO;
+import businessobject.SendingLettersBO;
 import io.qameta.allure.*;
+import model.SentLettersDTO;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobject.*;
@@ -13,26 +17,21 @@ public class LogInSendLetterAndDeleteLetterTest extends BaseTest {
     @Step("Verify Sending and Deleting of a letter")
     public void testSendAndDeleteLetter() {
 
-        LoginPage loginPage = new LoginPage();
-        loginPage.goToPageURL(MAIN_URL);
-        loginPage.typeEmailAndSubmit(user.getEmail());
-        HomePage homePage = loginPage.typePasswordAndSubmit(user.getPassword());
+        LoginationBO loginationBO = new LoginationBO();
+        HomePage homePage = loginationBO.logIn(user);
         Assert.assertTrue(homePage.isAccountOptionsPresent(), "Logination failed");
 
-        HandleLettersPage handleLettersPage = new HandleLettersPage();
-        SingleLetterPage singleLetterPage = handleLettersPage.openCreateLetterForm();
-        singleLetterPage.fillLetter(RECIPIENT_EMAIL, SUBJECT, CONTENT);
-        singleLetterPage.sendLetter();
-
-        SentLettersPage sentLettersPage = handleLettersPage.getAllSentLettersPage();
-        int sizeOfListAfterSaving = sentLettersPage.getSizeOfLettersList();
+        SendingLettersBO sendingLettersBO = new SendingLettersBO();
+        SentLettersPage sentLettersPage = sendingLettersBO.sendNewLetter(RECIPIENT_EMAIL, SUBJECT, CONTENT);
         Assert.assertEquals(sentLettersPage.getLastLetterSubject(),
                 SUBJECT, " Subject of the letter does not match !");
+        SentLettersDTO dtoAfterSending = sendingLettersBO.getStateOfTheLettersList(sentLettersPage);
 
-        sentLettersPage.selectLastLetter();
-        sentLettersPage.deleteSelectedLetter();
-        int sizeOfListAfterDeleting = sentLettersPage.getSizeOfLettersList();
-        Assert.assertEquals(sizeOfListAfterSaving - sizeOfListAfterDeleting, 1,
-                " Deleting of the letter failed !");
+        DeletingLettersBO deletingLettersBO = new DeletingLettersBO();
+        deletingLettersBO.deleteLastLetter(sentLettersPage);
+        SentLettersDTO dtoAfterDeleting = sendingLettersBO.getStateOfTheLettersList(sentLettersPage);
+
+        Assert.assertNotEquals(dtoAfterSending, dtoAfterDeleting,
+                "The state of the sent letters page did not change after deleting !");
     }
 }
