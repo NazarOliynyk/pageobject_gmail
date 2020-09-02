@@ -1,19 +1,14 @@
-import driver.DriverFactory;
+package testcase;
+
 import driver.DriverManager;
-import driver.DriverName;
-import org.json.simple.parser.ParseException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import userdata.User;
-import userdata.UserDAO;
+import utils.CustomListeners;
+import utils.TestUtils;
 
-import java.io.IOException;
-
-import static logger.AllureLogger.*;
-import static utils.Utils.deleteDefaultLetter;
 import static utils.Utils.initializeUserData;
-import static utils.Utils.sendDefaultLetter;
 
 @Listeners({CustomListeners.class})
 public abstract class BaseTest {
@@ -23,12 +18,12 @@ public abstract class BaseTest {
     @BeforeMethod
     public void beforeMethod() {
         user = initializeUserData().get(0);
-        sendDefaultLetter(user);
+        TestUtils.sendDefaultLetter(user);
     }
 
     @AfterMethod
     public void afterMethod() {
-        deleteDefaultLetter();
+        TestUtils.deleteDefaultLetter();
         DriverManager.quitDriver();
     }
 }

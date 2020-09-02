@@ -1,5 +1,6 @@
 package businessobject;
 
+import pageobject.HomePage;
 import pageobject.SentLettersPage;
 
 public class DeletingLettersBO {
@@ -14,6 +15,6 @@ public class DeletingLettersBO {
         sentLettersPage.selectLastLetter();
         sentLettersPage.deleteSelectedLetter();
         sentLettersPage.waitUntilDocumentReadyState();
+        new HomePage().logOut();
     }
-
 }

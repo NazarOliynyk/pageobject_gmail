@@ -1,9 +1,5 @@
 package utils;
 
-import businessobject.DeletingLettersBO;
-import businessobject.LoginationBO;
-import businessobject.SendingLettersBO;
-import driver.DriverManager;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
@@ -18,7 +14,6 @@ import java.util.List;
 import static logger.AllureLogger.logToAllureError;
 import static logger.AllureLogger.logToAllureInfo;
 import static logger.AllureLogger.logToAllureWarn;
-import static utils.PropertyFileHandler.*;
 
 public class Utils {
 
@@ -52,20 +47,5 @@ public class Utils {
             logToAllureError(e.getMessage());
         }
         return userList;
-    }
-
-    public static void sendDefaultLetter(User user){
-        logToAllureWarn("Sending Default letter to fill the folder of letters");
-        LoginationBO loginationBO = new LoginationBO();
-        loginationBO.logIn(user);
-        SendingLettersBO sendingLettersBO = new SendingLettersBO();
-        sendingLettersBO.sendNewLetter(RECIPIENT_EMAIL, DEFAULT_SUBJECT, DEFAULT_CONTENT);
-        DriverManager.quitDriver();
-    }
-
-    public static void deleteDefaultLetter(){
-        logToAllureWarn("Deleting default letter from the folder ");
-        DeletingLettersBO deletingLettersBO = new DeletingLettersBO();
-        deletingLettersBO.deleteDefaultLetter();
     }
 }

@@ -1,3 +1,5 @@
+package testcase;
+
 import businessobject.DeletingLettersBO;
 import businessobject.LoginationBO;
 import businessobject.SendingLettersBO;
@@ -31,7 +33,10 @@ public class LogInSendLetterAndDeleteLetterTest extends BaseTest {
         deletingLettersBO.deleteLastLetter(sentLettersPage);
         SentLettersDTO dtoAfterDeleting = sendingLettersBO.getStateOfTheLettersList(sentLettersPage);
 
-        Assert.assertNotEquals(dtoAfterSending, dtoAfterDeleting,
+        Assert.assertNotEquals(dtoAfterSending.getSizeOfLettersList(), dtoAfterDeleting.getSizeOfLettersList(),
+                "The size of the sent letters page did not change after deleting !");
+        Assert.assertNotEquals(dtoAfterSending.getExactTimeOfTheLastLetter(), dtoAfterDeleting.getExactTimeOfTheLastLetter(),
                 "The state of the sent letters page did not change after deleting !");
+
     }
 }
