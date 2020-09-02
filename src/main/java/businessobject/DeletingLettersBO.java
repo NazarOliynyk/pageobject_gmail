@@ -4,10 +4,16 @@ import pageobject.SentLettersPage;
 
 public class DeletingLettersBO {
 
-    public SentLettersPage deleteLastLetter(SentLettersPage sentLettersPage){
+    public void deleteLastLetter(SentLettersPage sentLettersPage){
         sentLettersPage.selectLastLetter();
         sentLettersPage.deleteSelectedLetter();
-        return sentLettersPage;
+    }
+
+    public void deleteDefaultLetter(){
+        SentLettersPage sentLettersPage = new SentLettersPage();
+        sentLettersPage.selectLastLetter();
+        sentLettersPage.deleteSelectedLetter();
+        sentLettersPage.waitUntilDocumentReadyState();
     }
 
 }

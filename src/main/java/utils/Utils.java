@@ -1,5 +1,6 @@
 package utils;
 
+import businessobject.DeletingLettersBO;
 import businessobject.LoginationBO;
 import businessobject.SendingLettersBO;
 import driver.DriverManager;
@@ -7,8 +8,6 @@ import org.json.simple.parser.ParseException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
-import pageobject.HomePage;
-import pageobject.SentLettersPage;
 import userdata.User;
 import userdata.UserDAO;
 
@@ -47,7 +46,7 @@ public class Utils {
     public static List<User> initializeUserData(){
         List<User> userList = new ArrayList<>();
         try {
-            logToAllureWarn("User data extracted successfully");
+            logToAllureWarn("Extracting users data ");
             userList = new UserDAO().getAll();
         } catch (IOException | ParseException e) {
             logToAllureError(e.getMessage());
@@ -56,13 +55,17 @@ public class Utils {
     }
 
     public static void sendDefaultLetter(User user){
-        logToAllureWarn("Sending Default letter to fill the list of letters");
+        logToAllureWarn("Sending Default letter to fill the folder of letters");
         LoginationBO loginationBO = new LoginationBO();
         loginationBO.logIn(user);
         SendingLettersBO sendingLettersBO = new SendingLettersBO();
         sendingLettersBO.sendNewLetter(RECIPIENT_EMAIL, DEFAULT_SUBJECT, DEFAULT_CONTENT);
         DriverManager.quitDriver();
-        logToAllureInfo("Default letter has been sent, User log out ");
     }
 
+    public static void deleteDefaultLetter(){
+        logToAllureWarn("Deleting default letter from the folder ");
+        DeletingLettersBO deletingLettersBO = new DeletingLettersBO();
+        deletingLettersBO.deleteDefaultLetter();
+    }
 }

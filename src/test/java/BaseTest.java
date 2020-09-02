@@ -11,6 +11,7 @@ import userdata.UserDAO;
 import java.io.IOException;
 
 import static logger.AllureLogger.*;
+import static utils.Utils.deleteDefaultLetter;
 import static utils.Utils.initializeUserData;
 import static utils.Utils.sendDefaultLetter;
 
@@ -22,11 +23,12 @@ public abstract class BaseTest {
     @BeforeMethod
     public void beforeMethod() {
         user = initializeUserData().get(0);
-//        sendDefaultLetter(user);
+        sendDefaultLetter(user);
     }
 
     @AfterMethod
     public void afterMethod() {
+        deleteDefaultLetter();
         DriverManager.quitDriver();
     }
 }

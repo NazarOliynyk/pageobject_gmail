@@ -48,3 +48,94 @@
 [WARN ] 2020-09-01 23:35:20.235 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: вт, 1 вер. 2020, 23:35
 [WARN ] 2020-09-01 23:35:29.313 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: вт, 1 вер. 2020, 23:22
 [WARN ] 2020-09-01 23:35:32.818 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 09:46:22.771 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 09:47:36.654 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 09:47:39.316 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 09:49:21.101 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 09:49:28.478 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 09:50:40.830 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-02 09:50:44.952 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 09:50
+[WARN ] 2020-09-02 09:50:51.592 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 09:54:17.150 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 09:54:34.240 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 09:54:34.971 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 09:55:26.938 AllureLogger:23 - Logged to allure: I am in onTestSkipped method testSendAndDeleteLetter skipped
+[WARN ] 2020-09-02 09:59:04.961 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 09:59:59.793 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 10:00:04.044 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 10:00:53.771 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:00:56.519 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:01:52.075 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-02 10:01:57.046 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 10:01
+[WARN ] 2020-09-02 10:02:01.744 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 09:55
+[WARN ] 2020-09-02 10:02:04.256 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:15:48.138 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:16:05.261 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 10:16:06.047 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 10:17:19.882 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:17:32.555 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:18:43.856 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-02 10:18:47.902 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 10:18
+[WARN ] 2020-09-02 10:18:53.906 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 09:55
+[WARN ] 2020-09-02 10:19:00.170 AllureLogger:23 - Logged to allure: Deleting default letter from the folder 
+[WARN ] 2020-09-02 10:19:01.739 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:25:57.028 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:26:11.246 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 10:26:12.011 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 10:27:12.275 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:27:15.224 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:28:34.732 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-02 10:28:40.734 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 10:28
+[WARN ] 2020-09-02 10:28:45.391 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 09:50
+[WARN ] 2020-09-02 10:28:47.641 AllureLogger:23 - Logged to allure: Deleting default letter from the folder 
+[WARN ] 2020-09-02 10:28:49.719 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:33:45.782 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:34:07.832 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 10:34:08.797 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 10:35:06.356 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:35:14.358 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:36:13.146 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-02 10:36:18.015 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 10:36
+[WARN ] 2020-09-02 10:36:19.855 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 10:35
+[WARN ] 2020-09-02 10:36:21.133 AllureLogger:23 - Logged to allure: Deleting default letter from the folder 
+[WARN ] 2020-09-02 10:36:22.580 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:42:21.165 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:42:36.068 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 10:42:37.246 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 10:43:25.508 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:43:29.140 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:44:19.800 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-02 10:44:27.082 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 10:44
+[WARN ] 2020-09-02 10:45:10.269 AllureLogger:23 - Logged to allure: Deleting default letter from the folder 
+[WARN ] 2020-09-02 10:48:42.262 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:48:54.890 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 10:48:55.378 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 10:49:42.301 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:49:45.822 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:53:16.539 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:53:33.169 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 10:53:33.647 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 10:54:19.651 AllureLogger:23 - Logged to allure: I am in onTestSkipped method testSendAndDeleteLetter skipped
+[WARN ] 2020-09-02 10:56:09.465 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 10:56:27.498 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 10:56:28.296 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 10:57:21.461 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 10:57:27.246 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 11:03:15.888 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 11:03:30.509 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 11:03:31.227 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 11:04:22.009 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 11:04:24.816 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 11:05:29.425 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-02 11:05:33.464 AllureLogger:23 - Logged to allure: Deleting default letter from the folder 
+[WARN ] 2020-09-02 11:05:35.354 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 11:08:49.204 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 11:09:06.919 AllureLogger:23 - Logged to allure: Extracting users data 
+[WARN ] 2020-09-02 11:09:07.524 AllureLogger:23 - Logged to allure: Sending Default letter to fill the folder of letters
+[WARN ] 2020-09-02 11:09:57.521 AllureLogger:23 - Logged to allure: Driver quit
+[WARN ] 2020-09-02 11:10:02.702 AllureLogger:23 - Logged to allure: Chrome driver is started
+[WARN ] 2020-09-02 11:11:06.316 AllureLogger:23 - Logged to allure: Getting text from the subject of a letter 
+[WARN ] 2020-09-02 11:11:22.531 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 11:11
+[WARN ] 2020-09-02 11:11:26.553 AllureLogger:23 - Logged to allure: Getting exact time from the last letter in the list of letters: ср, 2 вер. 2020, 11:09
+[WARN ] 2020-09-02 11:11:33.586 AllureLogger:23 - Logged to allure: Deleting default letter from the folder 
+[WARN ] 2020-09-02 11:11:35.557 AllureLogger:23 - Logged to allure: Driver quit

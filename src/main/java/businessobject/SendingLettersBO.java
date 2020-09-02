@@ -13,6 +13,7 @@ public class SendingLettersBO {
         SingleLetterPage singleLetterPage = handleLettersPage.openCreateLetterForm();
         singleLetterPage.fillLetter(recipientEmail, subject, content);
         singleLetterPage.sendLetter();
+        singleLetterPage.waitUntilDocumentReadyState();
         return handleLettersPage.getAllSentLettersPage();
     }
 
