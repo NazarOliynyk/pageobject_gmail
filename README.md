@@ -1,9 +1,10 @@
 The project to test Logination, Creation of a new Letter, and Deleting it for Gmail post service.
 
 **Design patterns:**
- 1. Page Object with @FindBy annotations and initialization via org.openqa.selenium.support.PageFactory.
+
+ - Page Object with @FindBy annotations and initialization via org.openqa.selenium.support.PageFactory.
  
- 2.  Business Object with encapsulation of business logic 
+ -  Business Object with encapsulation of business logic 
 
 **Precondition of test** - Sending of a default letter to compare with the initial letter by their time of sending                   
 
