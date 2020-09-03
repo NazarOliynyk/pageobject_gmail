@@ -1,9 +1,11 @@
 package businessobject;
 
-import model.SentLettersDTO;
+import dto.SentLettersDTO;
 import pageobject.HandleLettersPage;
 import pageobject.SentLettersPage;
 import pageobject.SingleLetterPage;
+
+import static utils.Utils.waitUntilDocumentReadyState;
 
 public class SendingLettersBO {
 
@@ -13,7 +15,6 @@ public class SendingLettersBO {
         SingleLetterPage singleLetterPage = handleLettersPage.openCreateLetterForm();
         singleLetterPage.fillLetter(recipientEmail, subject, content);
         singleLetterPage.sendLetter();
-        singleLetterPage.waitUntilDocumentReadyState();
         return handleLettersPage.getAllSentLettersPage();
     }
 

@@ -10,16 +10,21 @@ public class AllureLogger {
 
     @Step("{0}")
     public static void logToAllureInfo(String log) {
-        logger.info("Logged to allure: " + log);
+        logger.info(log);
+    }
+
+    @Step("{0}")
+    public static void logToAllureDebug(String log) {
+        logger.debug(log);
     }
 
     @Step("{0}")
     public static void logToAllureError(String log) {
-        logger.error("Logged to allure: " + log);
+        logger.error(log);
     }
 
     @Step("{0}")
     public static void logToAllureWarn(String log) {
-        logger.warn("Logged to allure: " + log);
+        logger.warn(log);
     }
 }

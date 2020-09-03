@@ -1,35 +1,35 @@
 package pageobject;
 
-import org.openqa.selenium.WebElement;
+import customelement.Button;
+import customelement.Input;
 import org.openqa.selenium.support.FindBy;
 
 import static logger.AllureLogger.logToAllureInfo;
 
 public class LoginPage extends AbstractPage {
 
-    @FindBy(id= "identifierId")
-    private WebElement emailInput;
+    @FindBy(id = "identifierId")
+    private Input emailInput;
 
     @FindBy(id = "identifierNext")
-    private WebElement proceedWithEmailButton;
+    private Button proceedWithEmailButton;
 
     @FindBy(name = "password")
-    private WebElement passwordInput;
+    private Input passwordInput;
 
     @FindBy(id = "passwordNext")
-    private WebElement proceedWithPasswordButton;
+    private Button proceedWithPasswordButton;
 
-    public void typeEmailAndSubmit(String email){
+    public void typeEmailAndSubmit(String email) {
         logToAllureInfo("Submitting email");
-        waitUntilVisibilityAndGetElement(emailInput).sendKeys(email);
-        waitUntilVisibilityAndGetElement(proceedWithEmailButton).click();
+        emailInput.waitAndSendKeys(email);
+        proceedWithEmailButton.waitAndClick();
     }
 
-    public HomePage typePasswordAndSubmit(String password){
+    public HomePage typePasswordAndSubmit(String password) {
         logToAllureInfo("Submitting password and proceeding to HomePage");
-        waitUntilVisibilityAndGetElement(passwordInput).sendKeys(password);
-        waitUntilVisibilityAndGetElement(proceedWithPasswordButton).click();
+        passwordInput.waitAndSendKeys(password);
+        proceedWithPasswordButton.waitAndClick();
         return new HomePage();
     }
-
 }

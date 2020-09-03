@@ -1,27 +1,26 @@
 package pageobject;
 
-import org.openqa.selenium.WebElement;
+import customelement.Button;
+import customelement.PopUp;
 import org.openqa.selenium.support.FindBy;
 
 import static logger.AllureLogger.logToAllureInfo;
-import static utils.Utils.isDisplayed;
 
 public class HomePage extends AbstractPage {
 
     @FindBy(xpath = "//img[@class='gb_La gbii']")
-    private WebElement accountWindow;
+    private PopUp accountWindow;
 
     @FindBy(id = "gb_71")
-    private WebElement exitButton;
+    private Button exitButton;
 
     public boolean isAccountOptionsPresent() {
-        return isDisplayed(waitUntilVisibilityAndGetElement(accountWindow));
+        return accountWindow.isDisplayed();
     }
 
     public void logOut() {
         logToAllureInfo("Log out from the Account");
-        waitUntilVisibilityAndGetElement(accountWindow).click();
-        waitUntilVisibilityAndGetElement(exitButton).click();
+        accountWindow.openPopUp();
+        exitButton.waitAndClick();
     }
-
 }

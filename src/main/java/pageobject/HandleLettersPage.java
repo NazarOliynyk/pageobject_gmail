@@ -1,6 +1,6 @@
 package pageobject;
 
-import org.openqa.selenium.WebElement;
+import customelement.Button;
 import org.openqa.selenium.support.FindBy;
 
 import static logger.AllureLogger.logToAllureInfo;
@@ -8,21 +8,20 @@ import static logger.AllureLogger.logToAllureInfo;
 public class HandleLettersPage extends AbstractPage {
 
     @FindBy(css = "div.T-I.T-I-KE.L3")
-    private WebElement composeButton;
+    private Button composeButton;
 
     @FindBy(css = "div.TN.bzz.aHS-bnu")
-    private WebElement getAllSentLettersButton;
+    private Button getAllSentLettersButton;
 
-    public SingleLetterPage openCreateLetterForm(){
+    public SingleLetterPage openCreateLetterForm() {
         logToAllureInfo("Opening a new letter form");
-        waitUntilVisibilityAndGetElement(composeButton).click();
+        composeButton.waitAndClick();
         return new SingleLetterPage();
     }
 
-    public SentLettersPage getAllSentLettersPage(){
+    public SentLettersPage getAllSentLettersPage() {
         logToAllureInfo("Opening the page with sent letters");
-        waitUntilDocumentReadyState();
-        waitWithPollingUntilVisibilityAndGetElement(getAllSentLettersButton).click();
+        getAllSentLettersButton.waitWithPollingUntilDocumentIsReadyAndClick();
         return new SentLettersPage();
     }
 }

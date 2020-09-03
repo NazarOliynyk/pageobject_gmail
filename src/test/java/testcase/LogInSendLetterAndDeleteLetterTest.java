@@ -4,7 +4,7 @@ import businessobject.DeletingLettersBO;
 import businessobject.LoginationBO;
 import businessobject.SendingLettersBO;
 import io.qameta.allure.*;
-import model.SentLettersDTO;
+import dto.SentLettersDTO;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageobject.*;

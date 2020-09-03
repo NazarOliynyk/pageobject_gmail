@@ -1,6 +1,9 @@
 package pageobject;
 
-import org.openqa.selenium.WebElement;
+import customelement.Button;
+import customelement.CheckBox;
+import customelement.LetterItem;
+import customelement.TextHolder;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
@@ -14,23 +17,21 @@ public class SentLettersPage extends AbstractPage {
             "//div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr";
 
     @FindBy(xpath = LETTER_ITEM_LOCATOR)
-    private List<WebElement> allLetters;
+    private List<LetterItem> allLetters;
 
     @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]//span[@class='bog']/span")
-    private WebElement subjectOfTheLastLetterTag;
+    private TextHolder subjectOfTheLastLetterTag;
 
     @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]/td[@class='xW xY ']/span")
-    private WebElement timeTagOfTheLastLetter;
+    private TextHolder timeTagOfTheLastLetter;
 
     @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]/td[@class='oZ-x3 xY']")
-    private WebElement selectLastLetterCheckBox;
+    private CheckBox selectLastLetterCheckBox;
 
     @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']")
-    private WebElement deleteSelectedLetterIcon;
-
+    private Button deleteSelectedLetterButton;
 
     public int getSizeOfLettersList() {
-        waitUntilDocumentReadyState();
         int size = allLetters.size();
         logToAllureInfo("Calculating the size of letter List: " + size);
         return size;
@@ -38,26 +39,22 @@ public class SentLettersPage extends AbstractPage {
 
     public String getLastLetterSubject() {
         logToAllureWarn("Getting text from the subject of a letter ");
-        waitUntilDocumentReadyState();
-        return waitUntilVisibilityAndGetElement(subjectOfTheLastLetterTag).getText();
+        return subjectOfTheLastLetterTag.waitUntilDocumentIsReadyAndGetText();
     }
 
-    public String getExactTimeOfTheLastLetterInList(){
-        waitUntilDocumentReadyState();
-        String exactTime = timeTagOfTheLastLetter.getAttribute("title");
-        logToAllureWarn("Getting exact time from the last letter in the list of letters: "+ exactTime);
+    public String getExactTimeOfTheLastLetterInList() {
+        String exactTime = timeTagOfTheLastLetter.waitUntilDocumentIsReadyAndGetAttribute("title");
+        logToAllureWarn("Getting exact time from the last letter in the list of letters: " + exactTime);
         return exactTime;
     }
 
     public void selectLastLetter() {
         logToAllureInfo("Selecting last letter check box");
-        waitUntilDocumentReadyState();
-        waitWithPollingUntilVisibilityAndGetElement(selectLastLetterCheckBox).click();
+        selectLastLetterCheckBox.setChecked();
     }
 
     public void deleteSelectedLetter() {
         logToAllureInfo("Deleting selected letter");
-        waitUntilVisibilityAndGetElement(deleteSelectedLetterIcon).click();
+        deleteSelectedLetterButton.waitUntilDocumentIsReadyAndClick();
     }
-
 }

@@ -1,44 +1,39 @@
 package utils;
 
+import driver.DriverManager;
 import org.json.simple.parser.ParseException;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.FluentWait;
 import userdata.User;
 import userdata.UserDAO;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
-import static logger.AllureLogger.logToAllureError;
-import static logger.AllureLogger.logToAllureInfo;
-import static logger.AllureLogger.logToAllureWarn;
+import static logger.AllureLogger.*;
 
 public class Utils {
 
-    public static boolean isDisplayed(WebElement element) {
-        try {
-            logToAllureInfo("Checking if element: ( " + getLocatorFromElement(element) + " ) is displayed");
-            return element.isDisplayed();
-        } catch (NoSuchElementException | TimeoutException e) {
-            logToAllureWarn("Element: ( " + getLocatorFromElement(element) + " ) is NOT displayed");
-            return false;
-        }
+    public static FluentWait<WebDriver> newWait() {
+        return new FluentWait<>(DriverManager.getDriver())
+                .ignoring(ElementClickInterceptedException.class)
+                .ignoring(StaleElementReferenceException.class)
+                .ignoring(NoSuchElementException.class)
+                .ignoring(TimeoutException.class);
     }
 
-    public static String getLocatorFromElement(WebElement element) {
-        try {
-            return element.toString()
-                    .split("->")[1]
-                    .replaceFirst("(?s)(.*)]", "$1" + "");
-        } catch (ArrayIndexOutOfBoundsException e) {
-            logToAllureError(String.valueOf(e.getCause()));
-            return "parsing of locator from element failed !!";
-        }
+    public static void waitUntilDocumentReadyState() {
+        logToAllureInfo("Waiting for the ready state of document ");
+        newWait().until((ExpectedCondition<Boolean>) wd ->
+                ((JavascriptExecutor) Objects.requireNonNull(wd))
+                        .executeScript("return document.readyState")
+                        .equals("complete"));
     }
 
-    public static List<User> initializeUserData(){
+    public static List<User> initializeUserData() {
         List<User> userList = new ArrayList<>();
         try {
             logToAllureWarn("Extracting users data ");

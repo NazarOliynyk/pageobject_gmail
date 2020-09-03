@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 import static logger.AllureLogger.logToAllureWarn;
 import static utils.PropertyFileHandler.*;
 
-public class DriverFactory {
+class DriverFactory {
 
     static WebDriver buildDriver(final DriverName browserName) {
         WebDriver driver = null;

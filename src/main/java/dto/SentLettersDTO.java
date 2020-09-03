@@ -1,4 +1,4 @@
-package model;
+package dto;
 
 import java.util.Objects;
 
@@ -7,7 +7,9 @@ public class SentLettersDTO {
     private int sizeOfLettersList;
     private String exactTimeOfTheLastLetter;
 
-    public int getSizeOfLettersList() { return sizeOfLettersList; }
+    public int getSizeOfLettersList() {
+        return sizeOfLettersList;
+    }
 
     public void setSizeOfLettersList(int sizeOfLettersList) {
         this.sizeOfLettersList = sizeOfLettersList;

@@ -2223,3 +2223,484 @@
 [INFO ] 2020-09-03 10:43:06.467 AllureLogger:13 - Logged to allure: Waiting for element: (  id: gb_71 ) 
 [WARN ] 2020-09-03 10:43:07.789 AllureLogger:23 - Logged to allure: Driver quit 
 [INFO ] 2020-09-03 10:43:11.810 AllureLogger:13 - Logged to allure: I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest 
+[INFO ] 2020-09-03 20:20:33.781 AllureLogger:13 - I am in onStart method testcase.LogInSendLetterAndDeleteLetterTest 
+[WARN ] 2020-09-03 20:20:34.110 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:20:34.141 AllureLogger:13 - Constants are extracted from the property file 
+[WARN ] 2020-09-03 20:21:26.867 AllureLogger:28 - Extracting users data  
+[WARN ] 2020-09-03 20:21:27.599 AllureLogger:28 - Sending Default letter to fill the folder of letters 
+[INFO ] 2020-09-03 20:21:27.817 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[INFO ] 2020-09-03 20:21:28.265 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:21:45.760 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:21:46.579 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:21:52.613 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:21:53.385 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:21:54.360 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:21:56.635 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:21:57.196 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:21:57.315 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:21:57.321 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:22:11.826 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:22:12.959 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:22:12.961 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:22:46.453 AllureLogger:18 - Waiting, clearing and sending keys to input: ( ']' ) 
+[DEBUG] 2020-09-03 20:23:11.204 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:23:14.685 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:23:16.780 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:23:16.957 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:23:17.556 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:23:17.648 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 20:23:19.328 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-03 20:23:20.395 AllureLogger:28 - Getting text from the subject of a letter  
+[DEBUG] 2020-09-03 20:23:23.820 AllureLogger:18 - Waiting and getting the text from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-03 20:23:23.821 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 20:23:24.368 AllureLogger:28 - Driver quit 
+[INFO ] 2020-09-03 20:23:28.351 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start 
+[INFO ] 2020-09-03 20:23:30.420 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[WARN ] 2020-09-03 20:23:30.422 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:23:38.446 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:23:43.957 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:23:44.122 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:23:46.426 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:23:47.348 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:23:49.804 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:23:51.349 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:23:51.722 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:24:10.985 AllureLogger:13 - Checking if popup-customelement: ( ( xpath: //img[@class='gb_La gbii'] ) ) is displayed 
+[INFO ] 2020-09-03 20:24:11.890 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:24:11.892 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:24:12.166 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:24:13.124 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:24:13.126 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:24:23.628 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 20:24:25.713 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:24:26.660 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:24:28.031 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:24:28.178 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:24:28.872 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:24:28.952 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 20:24:29.426 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-03 20:24:29.428 AllureLogger:28 - Getting text from the subject of a letter  
+[DEBUG] 2020-09-03 20:24:34.271 AllureLogger:18 - Waiting and getting the text from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-03 20:24:34.272 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:24:37.730 AllureLogger:13 - Calculating the size of letter List: 1 
+[DEBUG] 2020-09-03 20:24:37.777 AllureLogger:18 - Waiting and getting the attribute from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='xW xY ']/span ) 
+[INFO ] 2020-09-03 20:24:37.777 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 20:24:37.867 AllureLogger:28 - Getting exact time from the last letter in the list of letters: чт, 3 вер. 2020, 20:24 
+[INFO ] 2020-09-03 20:24:38.120 AllureLogger:13 - Selecting last letter check box 
+[DEBUG] 2020-09-03 20:24:38.387 AllureLogger:18 - Checking the customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) 
+[DEBUG] 2020-09-03 20:24:38.418 AllureLogger:18 - Waiting and Verifying if customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) is checked 
+[INFO ] 2020-09-03 20:24:43.533 AllureLogger:13 - Deleting selected letter 
+[DEBUG] 2020-09-03 20:24:43.876 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru'] ) 
+[INFO ] 2020-09-03 20:24:43.877 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:25:04.214 AllureLogger:13 - Calculating the size of letter List: 0 
+[DEBUG] 2020-09-03 20:25:24.441 AllureLogger:18 - Waiting and getting the attribute from text-holder: ( nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='xW xY ']/span' ) 
+[INFO ] 2020-09-03 20:25:24.457 AllureLogger:13 - Waiting for the ready state of document  
+[ERROR] 2020-09-03 20:25:44.990 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed 
+[INFO ] 2020-09-03 20:25:45.021 AllureLogger:13 - Screenshot captured for test case:testSendAndDeleteLetter 
+[WARN ] 2020-09-03 20:25:46.438 AllureLogger:28 - Deleting default letter from the folder  
+[INFO ] 2020-09-03 20:25:46.438 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[INFO ] 2020-09-03 20:25:46.438 AllureLogger:13 - Selecting last letter check box 
+[DEBUG] 2020-09-03 20:25:54.217 AllureLogger:18 - Checking the customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) 
+[DEBUG] 2020-09-03 20:25:54.402 AllureLogger:18 - Waiting and Verifying if customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) is checked 
+[INFO ] 2020-09-03 20:25:54.796 AllureLogger:13 - Deleting selected letter 
+[DEBUG] 2020-09-03 20:26:03.834 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']' ) 
+[INFO ] 2020-09-03 20:26:03.834 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:26:04.108 AllureLogger:13 - I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest 
+[INFO ] 2020-09-03 20:28:26.464 AllureLogger:13 - I am in onStart method testcase.LogInSendLetterAndDeleteLetterTest 
+[WARN ] 2020-09-03 20:28:26.573 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:28:26.573 AllureLogger:13 - Constants are extracted from the property file 
+[WARN ] 2020-09-03 20:28:41.750 AllureLogger:28 - Extracting users data  
+[WARN ] 2020-09-03 20:28:42.649 AllureLogger:28 - Sending Default letter to fill the folder of letters 
+[INFO ] 2020-09-03 20:28:42.696 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[INFO ] 2020-09-03 20:28:43.039 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:28:48.603 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:28:48.699 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:28:50.820 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:28:51.673 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:28:53.977 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:28:55.737 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:28:56.196 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:28:56.487 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:28:56.494 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:29:09.034 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:29:15.414 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:29:15.418 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:29:24.185 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 20:29:25.796 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:29:26.957 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:29:28.030 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:29:28.390 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:29:30.025 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:29:30.318 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 20:29:35.404 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start 
+[WARN ] 2020-09-03 20:29:35.419 AllureLogger:28 - I am in onTestSkipped method testSendAndDeleteLetter skipped 
+[INFO ] 2020-09-03 20:29:36.194 AllureLogger:13 - I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest 
+[INFO ] 2020-09-03 20:32:28.560 AllureLogger:13 - I am in onStart method testcase.LogInSendLetterAndDeleteLetterTest 
+[WARN ] 2020-09-03 20:32:28.638 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:32:28.638 AllureLogger:13 - Constants are extracted from the property file 
+[WARN ] 2020-09-03 20:32:46.159 AllureLogger:28 - Extracting users data  
+[WARN ] 2020-09-03 20:32:47.128 AllureLogger:28 - Sending Default letter to fill the folder of letters 
+[INFO ] 2020-09-03 20:32:47.237 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[INFO ] 2020-09-03 20:32:47.702 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:32:53.278 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:32:53.442 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:32:55.295 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:32:56.129 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:32:59.348 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:33:00.949 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:33:01.399 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:33:01.472 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:33:01.474 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:33:16.492 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:33:22.002 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:33:22.005 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:33:35.947 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 20:33:38.090 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:33:39.264 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:33:41.908 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:33:42.436 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:33:43.540 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:33:43.660 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 20:33:44.489 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-03 20:33:44.800 AllureLogger:28 - Getting text from the subject of a letter  
+[DEBUG] 2020-09-03 20:33:47.104 AllureLogger:18 - Waiting and getting the text from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-03 20:33:47.104 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 20:33:48.220 AllureLogger:28 - Driver quit 
+[INFO ] 2020-09-03 20:33:51.147 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start 
+[INFO ] 2020-09-03 20:33:51.356 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[WARN ] 2020-09-03 20:33:51.357 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:33:59.162 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:34:05.612 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:34:05.683 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:34:07.053 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:34:07.471 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:34:12.573 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:34:14.211 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:34:14.633 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:34:30.973 AllureLogger:13 - Checking if popup-customelement: ( ( xpath: //img[@class='gb_La gbii'] ) ) is displayed 
+[INFO ] 2020-09-03 20:34:35.989 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:34:35.991 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:34:37.040 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:34:40.443 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:34:40.444 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:34:44.426 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 20:34:46.358 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:34:48.095 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:34:50.894 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:34:51.014 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:34:51.624 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:34:51.732 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 20:34:57.519 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-03 20:34:57.520 AllureLogger:28 - Getting text from the subject of a letter  
+[DEBUG] 2020-09-03 20:34:58.208 AllureLogger:18 - Waiting and getting the text from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-03 20:34:58.211 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:34:59.225 AllureLogger:13 - Calculating the size of letter List: 2 
+[DEBUG] 2020-09-03 20:34:59.308 AllureLogger:18 - Waiting and getting the attribute from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='xW xY ']/span ) 
+[INFO ] 2020-09-03 20:34:59.308 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 20:34:59.567 AllureLogger:28 - Getting exact time from the last letter in the list of letters: чт, 3 вер. 2020, 20:34 
+[INFO ] 2020-09-03 20:34:59.760 AllureLogger:13 - Selecting last letter check box 
+[DEBUG] 2020-09-03 20:35:00.224 AllureLogger:18 - Checking the customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) 
+[DEBUG] 2020-09-03 20:35:00.489 AllureLogger:18 - Waiting and Verifying if customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) is checked 
+[INFO ] 2020-09-03 20:35:01.780 AllureLogger:13 - Deleting selected letter 
+[DEBUG] 2020-09-03 20:35:01.977 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru'] ) 
+[INFO ] 2020-09-03 20:35:01.979 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:35:03.159 AllureLogger:13 - Calculating the size of letter List: 1 
+[DEBUG] 2020-09-03 20:35:03.413 AllureLogger:18 - Waiting and getting the attribute from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='xW xY ']/span ) 
+[INFO ] 2020-09-03 20:35:03.414 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 20:35:03.580 AllureLogger:28 - Getting exact time from the last letter in the list of letters: чт, 3 вер. 2020, 20:33 
+[INFO ] 2020-09-03 20:35:03.619 AllureLogger:13 - I am in onTestSuccess method testSendAndDeleteLetter succeed 
+[INFO ] 2020-09-03 20:35:03.620 AllureLogger:13 - Screenshot captured for test case:testSendAndDeleteLetter 
+[WARN ] 2020-09-03 20:35:04.690 AllureLogger:28 - Deleting default letter from the folder  
+[INFO ] 2020-09-03 20:35:04.690 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[INFO ] 2020-09-03 20:35:04.690 AllureLogger:13 - Selecting last letter check box 
+[DEBUG] 2020-09-03 20:35:04.721 AllureLogger:18 - Checking the customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) 
+[DEBUG] 2020-09-03 20:35:04.768 AllureLogger:18 - Waiting and Verifying if customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) is checked 
+[INFO ] 2020-09-03 20:35:05.259 AllureLogger:13 - Deleting selected letter 
+[DEBUG] 2020-09-03 20:35:05.319 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru'] ) 
+[INFO ] 2020-09-03 20:35:05.320 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:35:05.677 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:35:05.680 AllureLogger:13 - Log out from the Account 
+[DEBUG] 2020-09-03 20:35:05.760 AllureLogger:18 - Waiting and opening popup-customelement: ( xpath: //img[@class='gb_La gbii'] ) 
+[INFO ] 2020-09-03 20:35:05.761 AllureLogger:13 - Waiting for the ready state of document  
+[DEBUG] 2020-09-03 20:35:06.584 AllureLogger:18 - Waiting and Clicking the button: ( id: gb_71 ) 
+[WARN ] 2020-09-03 20:35:07.451 AllureLogger:28 - Driver quit 
+[INFO ] 2020-09-03 20:35:10.494 AllureLogger:13 - I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest 
+[INFO ] 2020-09-03 20:39:53.103 AllureLogger:13 - I am in onStart method testcase.LogInSendLetterAndDeleteLetterTest 
+[WARN ] 2020-09-03 20:39:53.177 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:39:53.187 AllureLogger:13 - Constants are extracted from the property file 
+[WARN ] 2020-09-03 20:40:08.484 AllureLogger:28 - Extracting users data  
+[WARN ] 2020-09-03 20:40:09.200 AllureLogger:28 - Sending Default letter to fill the folder of letters 
+[INFO ] 2020-09-03 20:40:09.260 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[INFO ] 2020-09-03 20:40:09.788 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:40:14.711 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:40:14.805 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:40:18.213 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:40:18.791 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:40:21.211 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:40:23.249 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:40:24.101 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:40:24.155 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:40:24.158 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:40:37.918 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:40:43.764 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:40:43.766 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:40:49.400 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 20:40:55.158 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:40:56.640 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:40:58.505 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:40:58.863 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:41:02.626 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:41:03.044 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 20:41:10.163 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-03 20:41:10.460 AllureLogger:28 - Getting text from the subject of a letter  
+[DEBUG] 2020-09-03 20:41:11.225 AllureLogger:18 - Waiting and getting the text from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-03 20:41:11.226 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 20:41:12.428 AllureLogger:28 - Driver quit 
+[INFO ] 2020-09-03 20:41:15.747 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start 
+[INFO ] 2020-09-03 20:41:16.612 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[WARN ] 2020-09-03 20:41:16.612 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:41:24.010 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:41:28.949 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:41:29.061 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:41:30.595 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:41:31.013 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:41:36.225 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:41:37.867 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:41:38.259 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:41:52.820 AllureLogger:13 - Checking if popup-customelement: ( ( xpath: //img[@class='gb_La gbii'] ) ) is displayed 
+[INFO ] 2020-09-03 20:41:56.042 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:41:56.045 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:41:56.875 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:41:59.297 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:41:59.298 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:42:06.227 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 20:42:10.476 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:42:12.798 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:42:14.504 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:42:14.877 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:42:16.606 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:42:16.712 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[ERROR] 2020-09-03 20:42:17.571 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed 
+[INFO ] 2020-09-03 20:42:17.649 AllureLogger:13 - Screenshot captured for test case:testSendAndDeleteLetter 
+[WARN ] 2020-09-03 20:42:21.041 AllureLogger:28 - Deleting default letter from the folder  
+[INFO ] 2020-09-03 20:42:21.080 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[INFO ] 2020-09-03 20:42:21.081 AllureLogger:13 - Selecting last letter check box 
+[DEBUG] 2020-09-03 20:42:41.966 AllureLogger:18 - Checking the customelement: ( nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']' ) 
+[DEBUG] 2020-09-03 20:42:48.547 AllureLogger:18 - Waiting and Verifying if customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) is checked 
+[INFO ] 2020-09-03 20:42:50.147 AllureLogger:13 - Deleting selected letter 
+[DEBUG] 2020-09-03 20:42:50.336 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru'] ) 
+[INFO ] 2020-09-03 20:42:50.337 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:42:52.038 AllureLogger:13 - I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest 
+[INFO ] 2020-09-03 20:43:39.959 AllureLogger:13 - I am in onStart method testcase.LogInSendLetterAndDeleteLetterTest 
+[WARN ] 2020-09-03 20:43:40.028 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:43:40.028 AllureLogger:13 - Constants are extracted from the property file 
+[WARN ] 2020-09-03 20:43:55.906 AllureLogger:28 - Extracting users data  
+[WARN ] 2020-09-03 20:43:56.812 AllureLogger:28 - Sending Default letter to fill the folder of letters 
+[INFO ] 2020-09-03 20:43:56.927 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[INFO ] 2020-09-03 20:43:57.437 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:44:02.914 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:44:03.059 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:44:05.625 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:44:06.692 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:44:08.245 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:44:09.811 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:44:10.200 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:44:10.400 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:44:10.402 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:44:24.401 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:44:30.043 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:44:30.045 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:44:39.801 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 20:44:40.957 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:44:42.120 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:44:45.333 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:44:45.631 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:44:47.258 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:44:47.413 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 20:44:50.617 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start 
+[WARN ] 2020-09-03 20:44:50.630 AllureLogger:28 - I am in onTestSkipped method testSendAndDeleteLetter skipped 
+[INFO ] 2020-09-03 20:44:50.658 AllureLogger:13 - I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest 
+[INFO ] 2020-09-03 20:49:59.994 AllureLogger:13 - I am in onStart method testcase.LogInSendLetterAndDeleteLetterTest 
+[WARN ] 2020-09-03 20:50:00.103 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:50:00.103 AllureLogger:13 - Constants are extracted from the property file 
+[WARN ] 2020-09-03 20:50:17.307 AllureLogger:28 - Extracting users data  
+[WARN ] 2020-09-03 20:50:18.457 AllureLogger:28 - Sending Default letter to fill the folder of letters 
+[INFO ] 2020-09-03 20:50:18.530 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[INFO ] 2020-09-03 20:50:19.057 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:50:26.260 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:50:26.372 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:50:30.423 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:50:31.061 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:50:35.772 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:50:37.929 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:50:38.738 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:50:38.788 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:50:38.790 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:50:51.524 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:50:56.347 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:50:56.352 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:51:03.316 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 20:51:05.794 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:51:08.151 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:51:11.824 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:51:11.902 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:51:12.590 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:51:12.664 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 20:51:12.665 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:51:13.839 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-03 20:51:13.950 AllureLogger:28 - Getting text from the subject of a letter  
+[DEBUG] 2020-09-03 20:51:15.050 AllureLogger:18 - Waiting and getting the text from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-03 20:51:15.050 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 20:51:15.931 AllureLogger:28 - Driver quit 
+[INFO ] 2020-09-03 20:51:22.006 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start 
+[INFO ] 2020-09-03 20:51:22.203 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[WARN ] 2020-09-03 20:51:22.206 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 20:51:27.612 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 20:51:32.109 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 20:51:32.299 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 20:51:34.817 AllureLogger:18 - Waiting and Clicking the button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 20:51:35.583 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 20:51:41.820 AllureLogger:18 - Waiting for the ready state of document and sending keys to input: ( name: password ) 
+[DEBUG] 2020-09-03 20:51:43.940 AllureLogger:18 - Waiting and Clicking the button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 20:51:44.390 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:51:56.499 AllureLogger:13 - Checking if popup-customelement: ( ( xpath: //img[@class='gb_La gbii'] ) ) is displayed 
+[INFO ] 2020-09-03 20:51:59.849 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 20:51:59.851 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 20:52:00.419 AllureLogger:18 - Waiting and Clicking the button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 20:52:06.402 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 20:52:06.404 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 20:52:10.725 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 20:52:13.564 AllureLogger:18 - Waiting, clearing and sending keys to input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 20:52:15.773 AllureLogger:18 - Waiting, clearing and sending keys to input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 20:52:18.907 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 20:52:19.104 AllureLogger:18 - Waiting and Clicking the button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 20:52:19.983 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 20:52:20.126 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 20:52:20.127 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:52:20.878 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-03 20:52:20.880 AllureLogger:28 - Getting text from the subject of a letter  
+[DEBUG] 2020-09-03 20:52:22.578 AllureLogger:18 - Waiting and getting the text from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-03 20:52:22.578 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:52:23.591 AllureLogger:13 - Calculating the size of letter List: 2 
+[DEBUG] 2020-09-03 20:52:23.879 AllureLogger:18 - Waiting and getting the attribute from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='xW xY ']/span ) 
+[INFO ] 2020-09-03 20:52:23.880 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 20:52:24.026 AllureLogger:28 - Getting exact time from the last letter in the list of letters: чт, 3 вер. 2020, 20:52 
+[INFO ] 2020-09-03 20:52:24.057 AllureLogger:13 - Selecting last letter check box 
+[DEBUG] 2020-09-03 20:52:24.155 AllureLogger:18 - Checking the customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) 
+[DEBUG] 2020-09-03 20:52:24.239 AllureLogger:18 - Waiting and Verifying if customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) is checked 
+[INFO ] 2020-09-03 20:52:25.087 AllureLogger:13 - Deleting selected letter 
+[DEBUG] 2020-09-03 20:52:25.339 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru'] ) 
+[INFO ] 2020-09-03 20:52:25.340 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:52:26.873 AllureLogger:13 - Calculating the size of letter List: 1 
+[DEBUG] 2020-09-03 20:52:27.058 AllureLogger:18 - Waiting and getting the attribute from text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='xW xY ']/span ) 
+[INFO ] 2020-09-03 20:52:27.060 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 20:52:27.371 AllureLogger:28 - Getting exact time from the last letter in the list of letters: чт, 3 вер. 2020, 20:51 
+[INFO ] 2020-09-03 20:52:27.385 AllureLogger:13 - I am in onTestSuccess method testSendAndDeleteLetter succeed 
+[INFO ] 2020-09-03 20:52:27.386 AllureLogger:13 - Screenshot captured for test case:testSendAndDeleteLetter 
+[WARN ] 2020-09-03 20:52:28.781 AllureLogger:28 - Deleting default letter from the folder  
+[INFO ] 2020-09-03 20:52:28.781 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[INFO ] 2020-09-03 20:52:28.781 AllureLogger:13 - Selecting last letter check box 
+[DEBUG] 2020-09-03 20:52:28.916 AllureLogger:18 - Checking the customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) 
+[DEBUG] 2020-09-03 20:52:29.040 AllureLogger:18 - Waiting and Verifying if customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) is checked 
+[INFO ] 2020-09-03 20:52:29.588 AllureLogger:13 - Deleting selected letter 
+[DEBUG] 2020-09-03 20:52:29.684 AllureLogger:18 - Waiting for the document ready state and Clicking the button: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru'] ) 
+[INFO ] 2020-09-03 20:52:29.686 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 20:52:30.076 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 20:52:30.078 AllureLogger:13 - Log out from the Account 
+[DEBUG] 2020-09-03 20:52:30.153 AllureLogger:18 - Waiting and opening popup-customelement: ( xpath: //img[@class='gb_La gbii'] ) 
+[INFO ] 2020-09-03 20:52:30.154 AllureLogger:13 - Waiting for the ready state of document  
+[DEBUG] 2020-09-03 20:52:31.083 AllureLogger:18 - Waiting and Clicking the button: ( id: gb_71 ) 
+[WARN ] 2020-09-03 20:52:32.176 AllureLogger:28 - Driver quit 
+[INFO ] 2020-09-03 20:52:36.905 AllureLogger:13 - I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest 
+[INFO ] 2020-09-03 21:03:27.148 AllureLogger:13 - I am in onStart method testcase.LogInSendLetterAndDeleteLetterTest 
+[WARN ] 2020-09-03 21:03:27.226 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 21:03:27.242 AllureLogger:13 - Constants are extracted from the property file 
+[WARN ] 2020-09-03 21:03:43.936 AllureLogger:28 - Extracting users data  
+[WARN ] 2020-09-03 21:03:44.479 AllureLogger:28 - Sending Default letter to fill the folder of letters 
+[INFO ] 2020-09-03 21:03:44.559 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[INFO ] 2020-09-03 21:03:44.840 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 21:03:51.162 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 21:03:51.410 AllureLogger:18 - Waiting for the ready state of document and sending keys to Custom input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 21:03:54.548 AllureLogger:18 - Waiting and Clicking the Custom-button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 21:03:55.044 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 21:03:56.029 AllureLogger:18 - Waiting for the ready state of document and sending keys to Custom input: ( name: password ) 
+[DEBUG] 2020-09-03 21:03:58.434 AllureLogger:18 - Waiting and Clicking the Custom-button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 21:03:58.940 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 21:03:58.998 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 21:03:59.000 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 21:04:10.949 AllureLogger:18 - Waiting and Clicking the Custom-button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 21:04:15.646 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 21:04:15.650 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 21:04:23.775 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 21:04:25.799 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 21:04:26.719 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 21:04:27.841 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 21:04:28.079 AllureLogger:18 - Waiting and Clicking the Custom-button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 21:04:29.489 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 21:04:29.664 AllureLogger:18 - Waiting with polling for the document ready state and Clicking the Custom-button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 21:04:29.665 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 21:04:35.402 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-03 21:04:35.772 AllureLogger:28 - Getting text from the subject of a letter  
+[DEBUG] 2020-09-03 21:04:36.287 AllureLogger:18 - Waiting and getting the text from custom text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-03 21:04:36.288 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 21:04:36.717 AllureLogger:28 - Driver quit 
+[INFO ] 2020-09-03 21:04:43.183 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start 
+[INFO ] 2020-09-03 21:04:44.130 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage 
+[WARN ] 2020-09-03 21:04:44.130 AllureLogger:28 - Chrome driver is started 
+[INFO ] 2020-09-03 21:04:48.632 AllureLogger:13 - Going to URL: https://www.gmail.com/ 
+[INFO ] 2020-09-03 21:04:52.217 AllureLogger:13 - Submitting email 
+[DEBUG] 2020-09-03 21:04:52.322 AllureLogger:18 - Waiting for the ready state of document and sending keys to Custom input: ( id: identifierId ) 
+[DEBUG] 2020-09-03 21:04:53.733 AllureLogger:18 - Waiting and Clicking the Custom-button: ( id: identifierNext ) 
+[INFO ] 2020-09-03 21:04:54.697 AllureLogger:13 - Submitting password and proceeding to HomePage 
+[DEBUG] 2020-09-03 21:04:59.985 AllureLogger:18 - Waiting for the ready state of document and sending keys to Custom input: ( name: password ) 
+[DEBUG] 2020-09-03 21:05:01.524 AllureLogger:18 - Waiting and Clicking the Custom-button: ( id: passwordNext ) 
+[INFO ] 2020-09-03 21:05:01.858 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 21:05:10.275 AllureLogger:13 - Checking if custom popup: ( ( xpath: //img[@class='gb_La gbii'] ) ) is displayed 
+[INFO ] 2020-09-03 21:05:11.816 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage 
+[INFO ] 2020-09-03 21:05:11.818 AllureLogger:13 - Opening a new letter form 
+[DEBUG] 2020-09-03 21:05:12.886 AllureLogger:18 - Waiting and Clicking the Custom-button: ( css selector: div.T-I.T-I-KE.L3 ) 
+[INFO ] 2020-09-03 21:05:18.290 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage 
+[INFO ] 2020-09-03 21:05:18.292 AllureLogger:13 - Filling fields of the letter 
+[DEBUG] 2020-09-03 21:05:23.469 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: ( xpath: //textarea[@class='vO'] ) 
+[DEBUG] 2020-09-03 21:05:25.136 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: ( name: subjectbox ) 
+[DEBUG] 2020-09-03 21:05:26.441 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: ( xpath: //div[@class='Am Al editable LW-avf tS-tW'] ) 
+[INFO ] 2020-09-03 21:05:27.585 AllureLogger:13 - Sending the letter 
+[DEBUG] 2020-09-03 21:05:28.193 AllureLogger:18 - Waiting and Clicking the Custom-button: ( xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3'] ) 
+[INFO ] 2020-09-03 21:05:29.899 AllureLogger:13 - Opening the page with sent letters 
+[DEBUG] 2020-09-03 21:05:30.120 AllureLogger:18 - Waiting with polling for the document ready state and Clicking the Custom-button: ( css selector: div.TN.bzz.aHS-bnu ) 
+[INFO ] 2020-09-03 21:05:30.122 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 21:05:36.044 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[WARN ] 2020-09-03 21:05:36.046 AllureLogger:28 - Getting text from the subject of a letter  
+[DEBUG] 2020-09-03 21:05:36.805 AllureLogger:18 - Waiting and getting the text from custom text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span ) 
+[INFO ] 2020-09-03 21:05:36.806 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 21:05:37.277 AllureLogger:13 - Calculating the size of letter List: 2 
+[DEBUG] 2020-09-03 21:05:37.399 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='xW xY ']/span ) 
+[INFO ] 2020-09-03 21:05:37.399 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 21:05:37.544 AllureLogger:28 - Getting exact time from the last letter in the list of letters: чт, 3 вер. 2020, 21:05 
+[INFO ] 2020-09-03 21:05:37.652 AllureLogger:13 - Selecting last letter check box 
+[DEBUG] 2020-09-03 21:05:37.751 AllureLogger:18 - Checking the customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) 
+[DEBUG] 2020-09-03 21:05:37.798 AllureLogger:18 - Waiting and Verifying if Custom check-box: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) is checked 
+[INFO ] 2020-09-03 21:05:38.778 AllureLogger:13 - Deleting selected letter 
+[DEBUG] 2020-09-03 21:05:39.185 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru'] ) 
+[INFO ] 2020-09-03 21:05:39.185 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 21:05:40.885 AllureLogger:13 - Calculating the size of letter List: 1 
+[DEBUG] 2020-09-03 21:05:41.241 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='xW xY ']/span ) 
+[INFO ] 2020-09-03 21:05:41.242 AllureLogger:13 - Waiting for the ready state of document  
+[WARN ] 2020-09-03 21:05:41.606 AllureLogger:28 - Getting exact time from the last letter in the list of letters: чт, 3 вер. 2020, 21:04 
+[INFO ] 2020-09-03 21:05:41.622 AllureLogger:13 - I am in onTestSuccess method testSendAndDeleteLetter succeed 
+[INFO ] 2020-09-03 21:05:41.622 AllureLogger:13 - Screenshot captured for test case:testSendAndDeleteLetter 
+[WARN ] 2020-09-03 21:05:43.151 AllureLogger:28 - Deleting default letter from the folder  
+[INFO ] 2020-09-03 21:05:43.151 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage 
+[INFO ] 2020-09-03 21:05:43.151 AllureLogger:13 - Selecting last letter check box 
+[DEBUG] 2020-09-03 21:05:43.391 AllureLogger:18 - Checking the customelement: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) 
+[DEBUG] 2020-09-03 21:05:43.498 AllureLogger:18 - Waiting and Verifying if Custom check-box: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY'] ) is checked 
+[INFO ] 2020-09-03 21:05:44.112 AllureLogger:13 - Deleting selected letter 
+[DEBUG] 2020-09-03 21:05:44.178 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: ( xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru'] ) 
+[INFO ] 2020-09-03 21:05:44.180 AllureLogger:13 - Waiting for the ready state of document  
+[INFO ] 2020-09-03 21:05:44.654 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage 
+[INFO ] 2020-09-03 21:05:44.656 AllureLogger:13 - Log out from the Account 
+[DEBUG] 2020-09-03 21:05:44.794 AllureLogger:18 - Waiting and opening Custom popup: ( xpath: //img[@class='gb_La gbii'] ) 
+[INFO ] 2020-09-03 21:05:44.794 AllureLogger:13 - Waiting for the ready state of document  
+[DEBUG] 2020-09-03 21:05:45.899 AllureLogger:18 - Waiting and Clicking the Custom-button: ( id: gb_71 ) 
+[WARN ] 2020-09-03 21:05:49.595 AllureLogger:28 - Driver quit 
+[INFO ] 2020-09-03 21:05:55.656 AllureLogger:13 - I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest 
