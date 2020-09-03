@@ -40,9 +40,9 @@ public abstract class AbstractPage {
         return newWait().until(ExpectedConditions.visibilityOf(element));
     }
 
-   public void waitUntilDocumentReadyState() {
+    public void waitUntilDocumentReadyState() {
         logToAllureInfo("Waiting for the ready state of document ");
-         newWait().until((ExpectedCondition<Boolean>) wd ->
+        newWait().until((ExpectedCondition<Boolean>) wd ->
                 ((JavascriptExecutor) Objects.requireNonNull(wd))
                         .executeScript("return document.readyState")
                         .equals("complete"));

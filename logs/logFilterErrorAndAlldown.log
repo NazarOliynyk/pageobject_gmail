@@ -19,3 +19,4 @@
 [ERROR] 2020-09-02 17:38:44.877 AllureLogger:18 - Logged to allure: null
 [ERROR] 2020-09-02 17:38:50.921 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
 [ERROR] 2020-09-02 17:39:10.108 AllureLogger:18 - Logged to allure: null
+[ERROR] 2020-09-03 10:28:28.008 AllureLogger:18 - Logged to allure: I am in onTestFailure method testSendAndDeleteLetter failed
