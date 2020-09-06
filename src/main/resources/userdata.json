@@ -1,1 +1,27 @@
-["{\"id\":1,\"email\":\"testepamivan@gmail.com\",\"password\":\"myprojectmailsende@1\"}"]
+[
+  {
+    "id": 0,
+    "email": "testepamivan@gmail.com",
+    "password": "myprojectmailsende@1"
+  },
+  {
+    "id": 1,
+    "email": "testepampetro@gmail.com",
+    "password": "myprojectmailsende@2"
+  },
+  {
+    "id": 2,
+    "email": "test1pavlo@gmail.com",
+    "password": "myprojectmailsende@3"
+  },
+  {
+    "id": 3,
+    "email": "dimamalash5@gmail.com",
+    "password": "myprojectmailsende@4"
+  },
+  {
+    "id": 4,
+    "email": "gavruloepam@gmail.com",
+    "password": "myprojectmailsende@5"
+  }
+]

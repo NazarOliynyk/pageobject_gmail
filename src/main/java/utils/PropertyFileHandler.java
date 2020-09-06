@@ -14,12 +14,14 @@ public class PropertyFileHandler {
     public static final String GECKO_DRIVER_PATH;
     public static final String MAIN_URL;
     public static final String RECIPIENT_EMAIL;
+    public static final String DEFAULT_RECIPIENT_EMAIL;
     public static final String SUBJECT;
-    static final String DEFAULT_SUBJECT;
+    public static final String DEFAULT_SUBJECT;
     public static final String CONTENT;
-    static final String DEFAULT_CONTENT;
+    public static final String DEFAULT_CONTENT;
     public static final int FLUENT_WAIT_TIMEOUT;
     public static final int POLLING;
+    public static final String ATTRIBUTE_EMAIL;
 
     static {
         Properties prop = new Properties();
@@ -36,12 +38,13 @@ public class PropertyFileHandler {
         CHROME_DRIVER_PATH = prop.getProperty("chromedriverPath");
         MAIN_URL = prop.getProperty("main_url");
         RECIPIENT_EMAIL = prop.getProperty("recipient_email");
+        DEFAULT_RECIPIENT_EMAIL = prop.getProperty("default_recipient_email");
         SUBJECT = prop.getProperty("subject");
         DEFAULT_SUBJECT = prop.getProperty("default_subject");
         CONTENT = prop.getProperty("content");
         DEFAULT_CONTENT = prop.getProperty("default_content");
         FLUENT_WAIT_TIMEOUT = Integer.parseInt(prop.getProperty("timeout"));
         POLLING = Integer.parseInt(prop.getProperty("polling"));
+        ATTRIBUTE_EMAIL = prop.getProperty("attribute_email");
     }
-
 }

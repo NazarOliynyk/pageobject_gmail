@@ -1,19 +1,28 @@
 package businessobject;
 
-import pageobject.HomePage;
-import pageobject.SentLettersPage;
+import pageobject.*;
+
+import static logger.AllureLogger.logToAllureInfo;
+import static wait.CustomWait.waitUntilDocumentReadyState;
 
 public class DeletingLettersBO {
 
-    public void deleteLastLetter(SentLettersPage sentLettersPage) {
+    private SentLettersPage sentLettersPage;
+
+    public DeletingLettersBO() {
+        sentLettersPage = new SentLettersPage();
+    }
+
+    public void deleteLastLetter() {
         sentLettersPage.selectLastLetter();
         sentLettersPage.deleteSelectedLetter();
     }
 
-    public void deleteDefaultLetter() {
-        SentLettersPage sentLettersPage = new SentLettersPage();
+    public void cleanUpMailBox() {
+        logToAllureInfo("Deleting default letter to clean up the mail box ");
         sentLettersPage.selectLastLetter();
         sentLettersPage.deleteSelectedLetter();
-        new HomePage().logOut();
+        waitUntilDocumentReadyState();
+        logToAllureInfo("Default letter deleted ");
     }
 }

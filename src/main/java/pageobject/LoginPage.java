@@ -22,14 +22,13 @@ public class LoginPage extends AbstractPage {
 
     public void typeEmailAndSubmit(String email) {
         logToAllureInfo("Submitting email");
-        emailInput.waitAndSendKeys(email);
+        emailInput.waitClearAndSendKeys(email);
         proceedWithEmailButton.waitAndClick();
     }
 
-    public HomePage typePasswordAndSubmit(String password) {
+    public void typePasswordAndSubmit(String password) {
         logToAllureInfo("Submitting password and proceeding to HomePage");
-        passwordInput.waitAndSendKeys(password);
+        passwordInput.waitWithPollingAndSendKeys(password);
         proceedWithPasswordButton.waitAndClick();
-        return new HomePage();
     }
 }

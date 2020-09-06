@@ -1,28 +1,37 @@
 package businessobject;
 
 import dto.SentLettersDTO;
-import pageobject.HandleLettersPage;
-import pageobject.SentLettersPage;
-import pageobject.SingleLetterPage;
-
-import static utils.Utils.waitUntilDocumentReadyState;
+import pageobject.*;
 
 public class SendingLettersBO {
 
-    private HandleLettersPage handleLettersPage = new HandleLettersPage();
+    private HandleLettersPage handleLettersPage;
 
-    public SentLettersPage sendNewLetter(String recipientEmail, String subject, String content){
-        SingleLetterPage singleLetterPage = handleLettersPage.openCreateLetterForm();
+    private SingleLetterPage singleLetterPage;
+
+    private SentLettersPage sentLettersPage;
+
+    public SendingLettersBO() {
+        handleLettersPage = new HandleLettersPage();
+        sentLettersPage = new SentLettersPage();
+        singleLetterPage = new SingleLetterPage();
+    }
+
+    public void sendNewLetter(String recipientEmail, String subject, String content) {
+        handleLettersPage.openCreateLetterForm();
         singleLetterPage.fillLetter(recipientEmail, subject, content);
         singleLetterPage.sendLetter();
-        return handleLettersPage.getAllSentLettersPage();
     }
 
-    public SentLettersDTO getStateOfTheLettersList(SentLettersPage sentLettersPage){
+    public String getLastLetterSubject() {
+        handleLettersPage.getAllSentLettersPage();
+        return sentLettersPage.getLastLetterSubject();
+    }
+
+    public SentLettersDTO getStateOfTheLettersList(String tagAttribute) {
         SentLettersDTO sentLettersDTO = new SentLettersDTO();
         sentLettersDTO.setSizeOfLettersList(sentLettersPage.getSizeOfLettersList());
-        sentLettersDTO.setExactTimeOfTheLastLetter(sentLettersPage.getExactTimeOfTheLastLetterInList());
+        sentLettersDTO.setRecipientEmailOfTheLastLetter(sentLettersPage.getRecipientEmailOfTheLastLetter(tagAttribute));
         return sentLettersDTO;
     }
-
 }

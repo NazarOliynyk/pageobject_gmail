@@ -2,15 +2,10 @@ package userdata;
 
 import java.io.Serializable;
 import java.util.Objects;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1611867719076851676L;
-    private static final Pattern VALID_EMAIL_ADDRESS_REGEX =
-            Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
-
     private int id;
     private String email;
     private String password;
@@ -19,31 +14,12 @@ public class User implements Serializable {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getEmail() {
         return email;
     }
 
-    public boolean setEmail(String email) {
-        Matcher matcher = VALID_EMAIL_ADDRESS_REGEX.matcher(email);
-        boolean isValid = matcher.find();
-        if (isValid) {
-            this.email = email;
-            return isValid;
-        } else {
-            return false;
-        }
-    }
-
     public String getPassword() {
         return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
     }
 
     @Override
@@ -68,5 +44,33 @@ public class User implements Serializable {
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
                 '}';
+    }
+
+    static UserBuilder builder() {
+        return new UserBuilder();
+    }
+
+    public static class UserBuilder {
+
+        User user = new User();
+
+        UserBuilder userId(int id) {
+            user.id = id;
+            return this;
+        }
+
+        UserBuilder userEmail(String email) {
+            user.email = email;
+            return this;
+        }
+
+        UserBuilder userPassword(String pass) {
+            user.password = pass;
+            return this;
+        }
+
+        User build() {
+            return user;
+        }
     }
 }

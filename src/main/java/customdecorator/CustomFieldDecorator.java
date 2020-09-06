@@ -69,8 +69,7 @@ public class CustomFieldDecorator extends DefaultFieldDecorator {
 
         if (IElement.class.isAssignableFrom(clazz)) {
             return (Class<IElement>) clazz;
-        }
-        else {
+        } else {
             return null;
         }
     }
@@ -98,7 +97,7 @@ public class CustomFieldDecorator extends DefaultFieldDecorator {
                 new LocatingCustomElementListHandler(locator, clazz);
         List<IElement> elements =
                 (List<IElement>) Proxy.newProxyInstance(
-                        loader, new Class[] {List.class}, handler);
+                        loader, new Class[]{List.class}, handler);
         return elements;
     }
 

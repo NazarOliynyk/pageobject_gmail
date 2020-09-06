@@ -1,4 +1,4 @@
-package utils;
+package testcase;
 
 import driver.DriverManager;
 import io.qameta.allure.Attachment;
@@ -31,7 +31,6 @@ public class CustomListeners implements ITestListener {
     @Override
     public void onStart(ITestContext iTestContext) {
         logToAllureInfo("I am in onStart method " + iTestContext.getName());
-        iTestContext.setAttribute("WebDriver", DriverManager.getDriver());
     }
 
     @Override
@@ -60,7 +59,8 @@ public class CustomListeners implements ITestListener {
         logToAllureError("I am in onTestFailure method " + getTestMethodName(iTestResult) + " failed");
         WebDriver driver = DriverManager.getDriver();
         if (driver != null) {
-            logToAllureInfo("Screenshot captured for test case:" + getTestMethodName(iTestResult));
+            logToAllureError("Error message: " + iTestResult.getThrowable().getMessage());
+            logToAllureWarn("Screenshot captured for test case:" + getTestMethodName(iTestResult));
             saveScreenShot(driver);
         }
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
@@ -76,5 +76,4 @@ public class CustomListeners implements ITestListener {
     public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {
         logToAllureWarn("Test failed but it is in defined success ratio " + getTestMethodName(iTestResult));
     }
-
 }

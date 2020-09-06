@@ -1,22 +1,26 @@
 package businessobject;
 
-import pageobject.HomePage;
-import pageobject.LoginPage;
+import pageobject.*;
 import userdata.User;
-
-import static utils.PropertyFileHandler.MAIN_URL;
 
 public class LoginationBO {
 
-   private LoginPage loginPage = new LoginPage();
+    private LoginPage loginPage;
 
-   public HomePage logIn(User user){
-       loginPage.goToPageURL(MAIN_URL);
-       loginPage.typeEmailAndSubmit(user.getEmail());
-       return loginPage.typePasswordAndSubmit(user.getPassword());
-   }
+    private HomePage homePage;
 
-   public void logOut(HomePage homePage){
-       homePage.logOut();
-   }
+    public LoginationBO() {
+        loginPage = new LoginPage();
+        homePage = new HomePage();
+    }
+
+    public void logIn(User user) {
+        loginPage.typeEmailAndSubmit(user.getEmail());
+        loginPage.typePasswordAndSubmit(user.getPassword());
+    }
+
+    public boolean areAccountOptionsPresent() {
+        return homePage.areAccountOptionsPresent();
+    }
+
 }

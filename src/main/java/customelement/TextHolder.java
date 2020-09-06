@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static logger.AllureLogger.logToAllureDebug;
-import static utils.Utils.newWait;
-import static utils.Utils.waitUntilDocumentReadyState;
+import static wait.CustomWait.getNewFluentWait;
+import static wait.CustomWait.waitUntilDocumentReadyState;
 
 public class TextHolder extends Element {
 
@@ -17,12 +17,12 @@ public class TextHolder extends Element {
     public String waitUntilDocumentIsReadyAndGetText() {
         logToAllureDebug("Waiting and getting the text from custom text-holder: " + getLocator());
         waitUntilDocumentReadyState();
-        return newWait().until(ExpectedConditions.visibilityOf(webElement)).getText();
+        return getNewFluentWait().until(ExpectedConditions.visibilityOf(webElement)).getText();
     }
 
     public String waitUntilDocumentIsReadyAndGetAttribute(String attribute) {
         logToAllureDebug("Waiting and getting the attribute from custom text-holder: " + getLocator());
         waitUntilDocumentReadyState();
-        return webElement.getAttribute(attribute);
+        return getNewFluentWait().until(ExpectedConditions.visibilityOf(webElement)).getAttribute(attribute);
     }
 }

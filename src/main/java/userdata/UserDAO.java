@@ -1,43 +1,29 @@
 package userdata;
 
 import com.google.gson.Gson;
-import org.json.simple.JSONArray;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
+import com.google.gson.GsonBuilder;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.*;
+import java.util.Arrays;
 import java.util.List;
 
 public class UserDAO {
 
-    private Gson gson = new Gson();
+    private Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
-    private String PATH_COOKIES_FILE = System.getProperty("user.dir") +
+    private String PATH_JSON_FILE = System.getProperty("user.dir") +
             File.separator + "src\\main\\resources\\userdata.json";
 
-    @SuppressWarnings("unchecked")
-    public void saveAll(List<User> userList) throws Exception {
-
-        JSONArray ja = new JSONArray();
-        userList.forEach(a -> ja.add(gson.toJson(a)));
-        FileWriter fileWriter = new FileWriter(PATH_COOKIES_FILE);
-        fileWriter.write(ja.toJSONString());
-        fileWriter.flush();
+    void saveAll(List<User> userList) throws IOException {
+        Writer fileWriter = new FileWriter(PATH_JSON_FILE);
+        fileWriter.write(gson.toJson(userList));
         fileWriter.close();
     }
 
     @SuppressWarnings("unchecked")
-    public List<User> getAll() throws IOException, ParseException {
-
-        JSONParser jsonParser = new JSONParser();
-        FileReader fileReader = new FileReader(PATH_COOKIES_FILE);
-        JSONArray ja = (JSONArray) jsonParser.parse(fileReader);
-        List<User> userList = new ArrayList<>();
-        ja.forEach(jsonObject -> userList.add(gson.fromJson(jsonObject.toString(), User.class)));
+    public List<User> getAll() throws IOException {
+        FileReader fileReader = new FileReader(PATH_JSON_FILE);
+        List<User> userList = Arrays.asList(gson.fromJson(fileReader, User[].class));
         fileReader.close();
         return userList;
     }

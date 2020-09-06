@@ -1,10 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Suite" verbose="1"   parallel="none">
+<suite name="TestGmail" parallel="methods" data-provider-thread-count="3">
 
   <test name="testcase.LogInSendLetterAndDeleteLetterTest">
     <classes>
       <class name="testcase.LogInSendLetterAndDeleteLetterTest"/>
     </classes>
   </test>
+
 </suite>

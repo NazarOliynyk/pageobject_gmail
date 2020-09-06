@@ -3,40 +3,67 @@ package testcase;
 import businessobject.DeletingLettersBO;
 import businessobject.LoginationBO;
 import businessobject.SendingLettersBO;
+import driver.DriverManager;
 import io.qameta.allure.*;
 import dto.SentLettersDTO;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-import pageobject.*;
+import org.testng.annotations.*;
+import smtpservice.MailSender;
+import userdata.User;
+
+import java.util.Iterator;
+import java.util.List;
 
 import static utils.PropertyFileHandler.*;
+import static utils.Utils.goToPageURL;
+import static utils.Utils.initializeUserData;
 
-public class LogInSendLetterAndDeleteLetterTest extends BaseTest {
+
+@Listeners({CustomListeners.class})
+public class LogInSendLetterAndDeleteLetterTest {
+
+    @DataProvider(parallel = true)
+    public Iterator<Object[]> users() {
+        List<User> userList = initializeUserData();
+        return userList.stream().map(user -> new Object[]{user}).iterator();
+    }
 
     @Severity(SeverityLevel.CRITICAL)
-    @Test
+    @Test(dataProvider = "users")
     @Description("Verify Sending and Deleting of a letter")
     @Step("Verify Sending and Deleting of a letter")
-    public void testSendAndDeleteLetter() {
+    public void testSendAndDeleteLetter(User user) {
 
         LoginationBO loginationBO = new LoginationBO();
-        HomePage homePage = loginationBO.logIn(user);
-        Assert.assertTrue(homePage.isAccountOptionsPresent(), "Logination failed");
 
         SendingLettersBO sendingLettersBO = new SendingLettersBO();
-        SentLettersPage sentLettersPage = sendingLettersBO.sendNewLetter(RECIPIENT_EMAIL, SUBJECT, CONTENT);
-        Assert.assertEquals(sentLettersPage.getLastLetterSubject(),
-                SUBJECT, " Subject of the letter does not match !");
-        SentLettersDTO dtoAfterSending = sendingLettersBO.getStateOfTheLettersList(sentLettersPage);
 
         DeletingLettersBO deletingLettersBO = new DeletingLettersBO();
-        deletingLettersBO.deleteLastLetter(sentLettersPage);
-        SentLettersDTO dtoAfterDeleting = sendingLettersBO.getStateOfTheLettersList(sentLettersPage);
+
+        new MailSender().sendDefaultMessage(user);
+        goToPageURL(MAIN_URL);
+        loginationBO.logIn(user);
+        Assert.assertTrue(loginationBO.areAccountOptionsPresent(), "Logination failed");
+
+        sendingLettersBO.sendNewLetter(RECIPIENT_EMAIL, SUBJECT, CONTENT);
+        Assert.assertEquals(sendingLettersBO.getLastLetterSubject(), SUBJECT,
+                " Subject of the letter does not match !");
+        SentLettersDTO dtoAfterSending = sendingLettersBO.getStateOfTheLettersList(ATTRIBUTE_EMAIL);
+
+        deletingLettersBO.deleteLastLetter();
+        SentLettersDTO dtoAfterDeleting = sendingLettersBO.getStateOfTheLettersList(ATTRIBUTE_EMAIL);
 
         Assert.assertNotEquals(dtoAfterSending.getSizeOfLettersList(), dtoAfterDeleting.getSizeOfLettersList(),
-                "The size of the sent letters page did not change after deleting !");
-        Assert.assertNotEquals(dtoAfterSending.getExactTimeOfTheLastLetter(), dtoAfterDeleting.getExactTimeOfTheLastLetter(),
-                "The state of the sent letters page did not change after deleting !");
+                "The size of the sent letters page has not changed after deleting !");
+        Assert.assertNotEquals(dtoAfterSending.getRecipientEmailOfTheLastLetter(), dtoAfterDeleting.getRecipientEmailOfTheLastLetter(),
+                "The recipientEmail of the last letter has not changed after deleting  !");
 
+        deletingLettersBO.cleanUpMailBox();
     }
+
+    @AfterMethod
+    public void afterMethod() {
+        DriverManager.quitDriver();
+    }
+
 }

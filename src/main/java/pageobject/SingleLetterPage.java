@@ -2,9 +2,11 @@ package pageobject;
 
 import customelement.Button;
 import customelement.Input;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import static logger.AllureLogger.logToAllureInfo;
+import static wait.CustomWait.waitUntilVisibilityAndGetElement;
 
 public class SingleLetterPage extends AbstractPage {
 
@@ -12,7 +14,7 @@ public class SingleLetterPage extends AbstractPage {
     private Input recipientInput;
 
     @FindBy(name = "subjectbox")
-    private Input subjectInput;
+    private WebElement subjectInput;
 
     @FindBy(xpath = "//div[@class='Am Al editable LW-avf tS-tW']")
     private Input mainTextArea;
@@ -22,13 +24,13 @@ public class SingleLetterPage extends AbstractPage {
 
     public void fillLetter(String recipientEmail, String subject, String content) {
         logToAllureInfo("Filling fields of the letter");
-        recipientInput.waitClearAndSendKeys(recipientEmail);
-        subjectInput.waitClearAndSendKeys(subject);
-        mainTextArea.waitClearAndSendKeys(content);
+        recipientInput.waitWithPollingAndSendKeys(recipientEmail);
+        waitUntilVisibilityAndGetElement(subjectInput).sendKeys(subject);
+        mainTextArea.waitWithPollingAndSendKeys(content);
     }
 
     public void sendLetter() {
         logToAllureInfo("Sending the letter");
-        sendEmailButton.waitAndClick();
+        sendEmailButton.waitUntilDocumentIsReadyAndClick();
     }
 }

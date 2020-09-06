@@ -6,23 +6,23 @@ import static logger.AllureLogger.logToAllureWarn;
 
 public class DriverManager {
 
-    private static WebDriver driver = null;
+    private static ThreadLocal<WebDriver> driverPool = new ThreadLocal<>();
 
     private DriverManager() {
     }
 
     public static WebDriver getDriver() {
-        if (driver == null) {
-            driver = DriverFactory.buildDriver(DriverName.CHROME_DRIVER);
+        if (driverPool.get() == null) {
+            driverPool.set(new DriverFactory().buildDriver(DriverName.CHROME_DRIVER));
         }
-        return driver;
+        return driverPool.get();
     }
 
     public static void quitDriver() {
-        if (driver != null) {
+        if (driverPool.get() != null) {
             logToAllureWarn("Driver quit");
-            driver.quit();
-            driver = null;
+            driverPool.get().quit();
+            driverPool.set(null);
         }
     }
 }

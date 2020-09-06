@@ -13,15 +13,13 @@ public class HandleLettersPage extends AbstractPage {
     @FindBy(css = "div.TN.bzz.aHS-bnu")
     private Button getAllSentLettersButton;
 
-    public SingleLetterPage openCreateLetterForm() {
+    public void openCreateLetterForm() {
         logToAllureInfo("Opening a new letter form");
         composeButton.waitAndClick();
-        return new SingleLetterPage();
     }
 
-    public SentLettersPage getAllSentLettersPage() {
+    public void getAllSentLettersPage() {
         logToAllureInfo("Opening the page with sent letters");
         getAllSentLettersButton.waitWithPollingUntilDocumentIsReadyAndClick();
-        return new SentLettersPage();
     }
 }

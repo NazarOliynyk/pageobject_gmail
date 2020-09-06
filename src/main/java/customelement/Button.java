@@ -5,8 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static logger.AllureLogger.logToAllureDebug;
-import static utils.Utils.newWait;
-import static utils.Utils.waitUntilDocumentReadyState;
+import static wait.CustomWait.getNewFluentWait;
+import static wait.CustomWait.waitUntilDocumentReadyState;
+import static wait.CustomWait.waitWithPollingUntilVisibilityAndGetElement;
 
 public class Button extends Element {
 
@@ -16,13 +17,13 @@ public class Button extends Element {
 
     public void waitAndClick() {
         logToAllureDebug("Waiting and Clicking the Custom-button: " + getLocator());
-        newWait().until(ExpectedConditions.visibilityOf(webElement)).click();
+        getNewFluentWait().until(ExpectedConditions.visibilityOf(webElement)).click();
     }
 
     public void waitUntilDocumentIsReadyAndClick() {
         logToAllureDebug("Waiting for the document ready state and Clicking the Custom-button: " + getLocator());
         waitUntilDocumentReadyState();
-        newWait().until(ExpectedConditions.visibilityOf(webElement)).click();
+        getNewFluentWait().until(ExpectedConditions.visibilityOf(webElement)).click();
     }
 
     public void waitWithPollingUntilDocumentIsReadyAndClick() {
@@ -30,5 +31,4 @@ public class Button extends Element {
         waitUntilDocumentReadyState();
         waitWithPollingUntilVisibilityAndGetElement(webElement).click();
     }
-
 }

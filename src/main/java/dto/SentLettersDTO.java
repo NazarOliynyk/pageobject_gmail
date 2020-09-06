@@ -5,7 +5,7 @@ import java.util.Objects;
 public class SentLettersDTO {
 
     private int sizeOfLettersList;
-    private String exactTimeOfTheLastLetter;
+    private String recipientEmailOfTheLastLetter;
 
     public int getSizeOfLettersList() {
         return sizeOfLettersList;
@@ -15,12 +15,12 @@ public class SentLettersDTO {
         this.sizeOfLettersList = sizeOfLettersList;
     }
 
-    public String getExactTimeOfTheLastLetter() {
-        return exactTimeOfTheLastLetter;
+    public String getRecipientEmailOfTheLastLetter() {
+        return recipientEmailOfTheLastLetter;
     }
 
-    public void setExactTimeOfTheLastLetter(String exactTimeOfTheLastLetter) {
-        this.exactTimeOfTheLastLetter = exactTimeOfTheLastLetter;
+    public void setRecipientEmailOfTheLastLetter(String recipientEmailOfTheLastLetter) {
+        this.recipientEmailOfTheLastLetter = recipientEmailOfTheLastLetter;
     }
 
     @Override
@@ -29,19 +29,19 @@ public class SentLettersDTO {
         if (o == null || getClass() != o.getClass()) return false;
         SentLettersDTO that = (SentLettersDTO) o;
         return sizeOfLettersList == that.sizeOfLettersList &&
-                Objects.equals(exactTimeOfTheLastLetter, that.exactTimeOfTheLastLetter);
+                Objects.equals(recipientEmailOfTheLastLetter, that.recipientEmailOfTheLastLetter);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(sizeOfLettersList, exactTimeOfTheLastLetter);
+        return Objects.hash(sizeOfLettersList, recipientEmailOfTheLastLetter);
     }
 
     @Override
     public String toString() {
         return "SentLettersDTO{" +
                 "sizeOfLettersList=" + sizeOfLettersList +
-                ", exactTimeOfTheLastLetter='" + exactTimeOfTheLastLetter + '\'' +
+                ", recipientEmailOfTheLastLetter='" + recipientEmailOfTheLastLetter + '\'' +
                 '}';
     }
 }

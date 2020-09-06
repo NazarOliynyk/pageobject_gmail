@@ -11,7 +11,7 @@ import static utils.PropertyFileHandler.*;
 
 class DriverFactory {
 
-    static WebDriver buildDriver(final DriverName browserName) {
+    WebDriver buildDriver(final DriverName browserName) {
         WebDriver driver = null;
         if (browserName.equals(DriverName.CHROME_DRIVER)) {
             logToAllureWarn("Chrome driver is started");

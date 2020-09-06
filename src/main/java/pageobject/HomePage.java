@@ -5,6 +5,7 @@ import customelement.PopUp;
 import org.openqa.selenium.support.FindBy;
 
 import static logger.AllureLogger.logToAllureInfo;
+import static logger.AllureLogger.logToAllureWarn;
 
 public class HomePage extends AbstractPage {
 
@@ -14,7 +15,8 @@ public class HomePage extends AbstractPage {
     @FindBy(id = "gb_71")
     private Button exitButton;
 
-    public boolean isAccountOptionsPresent() {
+    public boolean areAccountOptionsPresent() {
+        logToAllureWarn("Verifying if account window is displayed ");
         return accountWindow.isDisplayed();
     }
 

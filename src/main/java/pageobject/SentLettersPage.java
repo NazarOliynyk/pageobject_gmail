@@ -24,6 +24,10 @@ public class SentLettersPage extends AbstractPage {
 
     @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]/td[@class='xW xY ']/span")
     private TextHolder timeTagOfTheLastLetter;
+    //[1]/td[@class='yX xY ']/div[@class='yW']/span
+
+    @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]/td[@class='yX xY ']/div[@class='yW']/span")
+    private TextHolder recipientEmailTag;
 
     @FindBy(xpath = LETTER_ITEM_LOCATOR + "[1]/td[@class='oZ-x3 xY']")
     private CheckBox selectLastLetterCheckBox;
@@ -42,10 +46,10 @@ public class SentLettersPage extends AbstractPage {
         return subjectOfTheLastLetterTag.waitUntilDocumentIsReadyAndGetText();
     }
 
-    public String getExactTimeOfTheLastLetterInList() {
-        String exactTime = timeTagOfTheLastLetter.waitUntilDocumentIsReadyAndGetAttribute("title");
-        logToAllureWarn("Getting exact time from the last letter in the list of letters: " + exactTime);
-        return exactTime;
+    public String getRecipientEmailOfTheLastLetter(String attribute) {
+        String recipientEmail = recipientEmailTag.waitUntilDocumentIsReadyAndGetAttribute(attribute);
+        logToAllureWarn("Getting the recipient's email of the last letter in the list of letters: " + recipientEmail);
+        return recipientEmail;
     }
 
     public void selectLastLetter() {

@@ -3,7 +3,7 @@ package customdecorator;
 import customelement.abstraction.IElement;
 import org.openqa.selenium.WebElement;
 
-public class WrapperFactory {
+class WrapperFactory {
 
     /**
      *      * Создает экземпляр класса,
@@ -11,8 +11,8 @@ public class WrapperFactory {
      *      * вызывая конструктор с аргументом WebElement
      *      
      */
-    public static IElement createInstance(Class<IElement> clazz,
-                                          WebElement element) {
+    static IElement createInstance(Class<IElement> clazz,
+                                   WebElement element) {
         try {
             return clazz.getConstructor(WebElement.class).
                     newInstance(element);
