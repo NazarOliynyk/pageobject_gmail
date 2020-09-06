@@ -18,4 +18,4 @@ Reporting - allure.
 
 **Recent reports** with all logs and screenshots 
 
-https://eager-villani-ef24da.netlify.app/
+https://eager-lamarr-aa773a.netlify.app/
