@@ -1,5 +1,6 @@
 package businessobject;
 
+import dto.MessageDTO;
 import dto.SentLettersDTO;
 import pageobject.*;
 
@@ -17,9 +18,9 @@ public class SendingLettersBO {
         singleLetterPage = new SingleLetterPage();
     }
 
-    public void sendNewLetter(String recipientEmail, String subject, String content) {
+    public void sendNewLetter(MessageDTO messageDTO) {
         handleLettersPage.openCreateLetterForm();
-        singleLetterPage.fillLetter(recipientEmail, subject, content);
+        singleLetterPage.fillLetter(messageDTO);
         singleLetterPage.sendLetter();
     }
 

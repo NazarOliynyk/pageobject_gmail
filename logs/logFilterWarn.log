@@ -676,3 +676,39 @@
 [WARN ] 2020-09-07 14:43:46.833 AllureLogger:28 - Custom element: ( Proxy element for: DefaultElementLocator 'By.xpath: //img[@class='gb_La gbii']' ) is NOT displayed
 [WARN ] 2020-09-07 14:43:46.904 AllureLogger:28 - Screenshot captured for test case:testSendAndDeleteLetter
 [WARN ] 2020-09-07 14:43:47.456 AllureLogger:28 - Driver quit
+[WARN ] 2020-09-07 18:07:40.518 AllureLogger:28 - Extracting users data 
+[WARN ] 2020-09-07 18:07:42.518 AllureLogger:28 - Chrome driver is started
+[WARN ] 2020-09-07 18:07:42.539 AllureLogger:28 - Chrome driver is started
+[WARN ] 2020-09-07 18:07:42.498 AllureLogger:28 - Chrome driver is started
+[WARN ] 2020-09-07 18:09:45.114 AllureLogger:28 - Verifying if account window is displayed 
+[WARN ] 2020-09-07 18:09:59.374 AllureLogger:28 - Verifying if account window is displayed 
+[WARN ] 2020-09-07 18:10:14.932 AllureLogger:28 - Verifying if account window is displayed 
+[WARN ] 2020-09-07 18:14:26.017 AllureLogger:28 - Getting text from the subject of a letter 
+[WARN ] 2020-09-07 18:14:26.579 AllureLogger:28 - Getting text from the subject of a letter 
+[WARN ] 2020-09-07 18:14:27.998 AllureLogger:28 - Getting text from the subject of a letter 
+[WARN ] 2020-09-07 18:14:57.767 AllureLogger:28 - Screenshot captured for test case:testSendAndDeleteLetter
+[WARN ] 2020-09-07 18:14:57.779 AllureLogger:28 - Screenshot captured for test case:testSendAndDeleteLetter
+[WARN ] 2020-09-07 18:15:00.398 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net
+[WARN ] 2020-09-07 18:15:14.099 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net
+[WARN ] 2020-09-07 18:15:23.292 AllureLogger:28 - Driver quit
+[WARN ] 2020-09-07 18:15:24.396 AllureLogger:28 - Driver quit
+[WARN ] 2020-09-07 18:15:24.396 AllureLogger:28 - Driver quit
+[WARN ] 2020-09-07 18:15:34.755 AllureLogger:28 - Chrome driver is started
+[WARN ] 2020-09-07 18:15:40.540 AllureLogger:28 - Chrome driver is started
+[WARN ] 2020-09-07 18:16:33.524 AllureLogger:28 - Verifying if account window is displayed 
+[WARN ] 2020-09-07 18:17:23.994 AllureLogger:28 - Verifying if account window is displayed 
+[WARN ] 2020-09-07 18:18:56.099 AllureLogger:28 - Getting text from the subject of a letter 
+[WARN ] 2020-09-07 18:19:07.857 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net
+[WARN ] 2020-09-07 18:19:18.753 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net
+[WARN ] 2020-09-07 18:19:22.477 AllureLogger:28 - Driver quit
+[WARN ] 2020-09-07 18:19:29.463 AllureLogger:28 - Getting text from the subject of a letter 
+[WARN ] 2020-09-07 18:19:33.057 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net
+[WARN ] 2020-09-07 18:19:38.126 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net
+[WARN ] 2020-09-07 18:19:40.802 AllureLogger:28 - Driver quit
+[WARN ] 2020-09-07 20:34:22.381 AllureLogger:28 - Chrome driver is started
+[WARN ] 2020-09-07 20:35:05.653 AllureLogger:28 - Extracting users data 
+[WARN ] 2020-09-07 20:35:52.850 AllureLogger:28 - Verifying if account window is displayed 
+[WARN ] 2020-09-07 20:37:19.421 AllureLogger:28 - Getting text from the subject of a letter 
+[WARN ] 2020-09-07 20:37:27.545 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net
+[WARN ] 2020-09-07 20:37:30.279 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net
+[WARN ] 2020-09-07 20:37:39.847 AllureLogger:28 - Driver quit

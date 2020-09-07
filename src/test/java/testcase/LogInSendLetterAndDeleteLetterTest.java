@@ -4,6 +4,7 @@ import businessobject.DeletingLettersBO;
 import businessobject.LoginationBO;
 import businessobject.SendingLettersBO;
 import driver.DriverManager;
+import dto.MessageDTO;
 import io.qameta.allure.*;
 import dto.SentLettersDTO;
 import org.testng.Assert;
@@ -39,14 +40,14 @@ public class LogInSendLetterAndDeleteLetterTest {
         SendingLettersBO sendingLettersBO = new SendingLettersBO();
 
         DeletingLettersBO deletingLettersBO = new DeletingLettersBO();
-
         new MailSender().sendDefaultMessage(user);
         goToPageURL(MAIN_URL);
         loginationBO.logIn(user);
-        Assert.assertTrue(loginationBO.areAccountOptionsPresent(), "Logination failed");
+        Assert.assertTrue(loginationBO.areAccountOptionsPresent(), " Logination failed");
 
-        sendingLettersBO.sendNewLetter(RECIPIENT_EMAIL, SUBJECT, CONTENT);
-        Assert.assertEquals(sendingLettersBO.getLastLetterSubject(), SUBJECT,
+        MessageDTO messageDTO = new MessageDTO();
+        sendingLettersBO.sendNewLetter(messageDTO);
+        Assert.assertEquals(sendingLettersBO.getLastLetterSubject(), messageDTO.getSubject(),
                 " Subject of the letter does not match !");
         SentLettersDTO dtoAfterSending = sendingLettersBO.getStateOfTheLettersList(ATTRIBUTE_EMAIL);
 
@@ -54,9 +55,9 @@ public class LogInSendLetterAndDeleteLetterTest {
         SentLettersDTO dtoAfterDeleting = sendingLettersBO.getStateOfTheLettersList(ATTRIBUTE_EMAIL);
 
         Assert.assertNotEquals(dtoAfterSending.getSizeOfLettersList(), dtoAfterDeleting.getSizeOfLettersList(),
-                "The size of the sent letters page has not changed after deleting !");
+                " The size of the sent letters page has not changed after deleting !");
         Assert.assertNotEquals(dtoAfterSending.getRecipientEmailOfTheLastLetter(), dtoAfterDeleting.getRecipientEmailOfTheLastLetter(),
-                "The recipientEmail of the last letter has not changed after deleting  !");
+                " The recipientEmail of the last letter has not changed after deleting  !");
 
         deletingLettersBO.cleanUpMailBox();
     }

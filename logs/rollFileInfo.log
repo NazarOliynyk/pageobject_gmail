@@ -1499,3 +1499,357 @@ Driver info: driver.version: unknown
 [WARN ] 2020-09-07 14:43:46.904 AllureLogger:28 - Screenshot captured for test case:testSendAndDeleteLetter
 [WARN ] 2020-09-07 14:43:47.456 AllureLogger:28 - Driver quit
 [INFO ] 2020-09-07 14:43:48.376 AllureLogger:13 - I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest
+[INFO ] 2020-09-07 18:07:40.133 AllureLogger:13 - I am in onStart method testcase.LogInSendLetterAndDeleteLetterTest
+[WARN ] 2020-09-07 18:07:40.518 AllureLogger:28 - Extracting users data 
+[INFO ] 2020-09-07 18:07:41.805 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start
+[INFO ] 2020-09-07 18:07:41.823 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start
+[INFO ] 2020-09-07 18:07:41.866 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start
+[INFO ] 2020-09-07 18:07:42.439 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage
+[INFO ] 2020-09-07 18:07:42.471 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage
+[WARN ] 2020-09-07 18:07:42.498 AllureLogger:28 - Chrome driver is started
+[INFO ] 2020-09-07 18:07:42.515 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage
+[WARN ] 2020-09-07 18:07:42.518 AllureLogger:28 - Chrome driver is started
+[INFO ] 2020-09-07 18:07:42.525 AllureLogger:13 - Constants are extracted from the property file
+[WARN ] 2020-09-07 18:07:42.539 AllureLogger:28 - Chrome driver is started
+[INFO ] 2020-09-07 18:08:26.374 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage
+[INFO ] 2020-09-07 18:08:26.471 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage
+[INFO ] 2020-09-07 18:08:26.485 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:08:26.585 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage
+[INFO ] 2020-09-07 18:08:26.755 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:08:26.780 AllureLogger:13 - Sending a default letter from: testepampetro@gmail.com to recipient
+[INFO ] 2020-09-07 18:08:27.112 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage
+[INFO ] 2020-09-07 18:08:27.116 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage
+[INFO ] 2020-09-07 18:08:27.119 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:08:27.126 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage
+[INFO ] 2020-09-07 18:08:27.130 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage
+[INFO ] 2020-09-07 18:08:27.138 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:08:27.140 AllureLogger:13 - Sending a default letter from: test1pavlo@gmail.com to recipient
+[INFO ] 2020-09-07 18:08:27.135 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage
+[INFO ] 2020-09-07 18:08:27.145 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:08:27.156 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage
+[INFO ] 2020-09-07 18:08:27.162 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:08:27.169 AllureLogger:13 - Sending a default letter from: testepamivan@gmail.com to recipient
+[INFO ] 2020-09-07 18:08:27.786 AllureLogger:13 - Setting data of the default letter from smptp-sender 
+[INFO ] 2020-09-07 18:08:27.786 AllureLogger:13 - Setting data of the default letter from smptp-sender 
+[INFO ] 2020-09-07 18:08:27.792 AllureLogger:13 - Setting data of the default letter from smptp-sender 
+[INFO ] 2020-09-07 18:08:38.352 AllureLogger:13 - Response from smtp-mail-transport: 250 2.0.0 OK  1599491316 y17sm6327648ljm.55 - gsmtp
+
+[INFO ] 2020-09-07 18:08:38.398 AllureLogger:13 - Going to URL: https://www.gmail.com/
+[INFO ] 2020-09-07 18:08:38.450 AllureLogger:13 - Response from smtp-mail-transport: 250 2.0.0 OK  1599491317 u18sm7629173lfg.86 - gsmtp
+
+[INFO ] 2020-09-07 18:08:38.499 AllureLogger:13 - Going to URL: https://www.gmail.com/
+[INFO ] 2020-09-07 18:08:38.521 AllureLogger:13 - Response from smtp-mail-transport: 250 2.0.0 OK  1599491317 q7sm7602839lfr.16 - gsmtp
+
+[INFO ] 2020-09-07 18:08:38.565 AllureLogger:13 - Going to URL: https://www.gmail.com/
+[INFO ] 2020-09-07 18:09:13.606 AllureLogger:13 - Submitting email
+[DEBUG] 2020-09-07 18:09:14.571 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> id: identifierId]
+[INFO ] 2020-09-07 18:09:18.006 AllureLogger:13 - Submitting email
+[DEBUG] 2020-09-07 18:09:19.504 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> id: identifierId]
+[INFO ] 2020-09-07 18:09:25.860 AllureLogger:13 - Submitting email
+[DEBUG] 2020-09-07 18:09:26.492 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> id: identifierId]
+[DEBUG] 2020-09-07 18:09:28.089 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> id: identifierNext]
+[DEBUG] 2020-09-07 18:09:28.287 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> id: identifierNext]
+[INFO ] 2020-09-07 18:09:29.436 AllureLogger:13 - Submitting password and proceeding to HomePage
+[DEBUG] 2020-09-07 18:09:30.447 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> name: password]
+[INFO ] 2020-09-07 18:09:30.448 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:09:30.602 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> id: identifierNext]
+[INFO ] 2020-09-07 18:09:35.032 AllureLogger:13 - Submitting password and proceeding to HomePage
+[DEBUG] 2020-09-07 18:09:39.197 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> name: password]
+[INFO ] 2020-09-07 18:09:39.199 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:09:41.051 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> id: passwordNext]
+[INFO ] 2020-09-07 18:09:42.179 AllureLogger:13 - Submitting password and proceeding to HomePage
+[DEBUG] 2020-09-07 18:09:43.674 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> name: password]
+[INFO ] 2020-09-07 18:09:43.676 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 18:09:45.114 AllureLogger:28 - Verifying if account window is displayed 
+[DEBUG] 2020-09-07 18:09:53.587 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> id: passwordNext]
+[DEBUG] 2020-09-07 18:09:58.530 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> id: passwordNext]
+[WARN ] 2020-09-07 18:09:59.374 AllureLogger:28 - Verifying if account window is displayed 
+[WARN ] 2020-09-07 18:10:14.932 AllureLogger:28 - Verifying if account window is displayed 
+[INFO ] 2020-09-07 18:11:02.304 AllureLogger:13 - Checking if custom popup: ( [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> xpath: //img[@class='gb_La gbii']] ) is displayed
+[INFO ] 2020-09-07 18:11:14.546 AllureLogger:13 - Checking if custom popup: ( [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //img[@class='gb_La gbii']] ) is displayed
+[INFO ] 2020-09-07 18:11:33.352 AllureLogger:13 - Opening a new letter form
+[INFO ] 2020-09-07 18:11:33.517 AllureLogger:13 - Checking if custom popup: ( [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> xpath: //img[@class='gb_La gbii']] ) is displayed
+[DEBUG] 2020-09-07 18:11:49.880 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> css selector: div.T-I.T-I-KE.L3]
+[INFO ] 2020-09-07 18:11:54.457 AllureLogger:13 - Opening a new letter form
+[DEBUG] 2020-09-07 18:12:14.500 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> css selector: div.T-I.T-I-KE.L3]
+[INFO ] 2020-09-07 18:12:16.646 AllureLogger:13 - Opening a new letter form
+[DEBUG] 2020-09-07 18:12:25.772 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> css selector: div.T-I.T-I-KE.L3]
+[INFO ] 2020-09-07 18:12:44.454 AllureLogger:13 - Filling fields of the letter
+[INFO ] 2020-09-07 18:12:49.397 AllureLogger:13 - Filling fields of the letter
+[INFO ] 2020-09-07 18:12:55.331 AllureLogger:13 - Filling fields of the letter
+[DEBUG] 2020-09-07 18:13:10.852 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: Proxy element for: DefaultElementLocator 'By.xpath: //textarea[@class='vO']'
+[INFO ] 2020-09-07 18:13:10.869 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:13:13.074 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: Proxy element for: DefaultElementLocator 'By.xpath: //textarea[@class='vO']'
+[INFO ] 2020-09-07 18:13:13.077 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:13:22.684 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> xpath: //textarea[@class='vO']]
+[INFO ] 2020-09-07 18:13:22.689 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:13:34.553 AllureLogger:13 - Waiting for the plain WebElement: (  name: subjectbox )
+[INFO ] 2020-09-07 18:13:34.733 AllureLogger:13 - Waiting for the plain WebElement: (  name: subjectbox )
+[INFO ] 2020-09-07 18:13:34.778 AllureLogger:13 - Waiting for the plain WebElement: (  name: subjectbox )
+[DEBUG] 2020-09-07 18:13:42.409 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='Am Al editable LW-avf tS-tW']]
+[INFO ] 2020-09-07 18:13:42.416 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:13:43.362 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> xpath: //div[@class='Am Al editable LW-avf tS-tW']]
+[INFO ] 2020-09-07 18:13:43.365 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:13:43.904 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> xpath: //div[@class='Am Al editable LW-avf tS-tW']]
+[INFO ] 2020-09-07 18:13:43.906 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:13:56.817 AllureLogger:13 - Sending the letter
+[INFO ] 2020-09-07 18:13:57.699 AllureLogger:13 - Sending the letter
+[DEBUG] 2020-09-07 18:13:57.851 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']]
+[INFO ] 2020-09-07 18:13:57.856 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:13:58.859 AllureLogger:13 - Sending the letter
+[DEBUG] 2020-09-07 18:13:59.099 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']]
+[INFO ] 2020-09-07 18:13:59.108 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:14:00.052 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']]
+[INFO ] 2020-09-07 18:14:00.057 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:14:11.935 AllureLogger:13 - Opening the page with sent letters
+[INFO ] 2020-09-07 18:14:13.043 AllureLogger:13 - Opening the page with sent letters
+[DEBUG] 2020-09-07 18:14:14.093 AllureLogger:18 - Waiting with polling for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> css selector: div.TN.bzz.aHS-bnu]
+[INFO ] 2020-09-07 18:14:14.095 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:14:15.075 AllureLogger:18 - Waiting with polling for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> css selector: div.TN.bzz.aHS-bnu]
+[INFO ] 2020-09-07 18:14:15.076 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:14:19.806 AllureLogger:13 - Opening the page with sent letters
+[DEBUG] 2020-09-07 18:14:20.970 AllureLogger:18 - Waiting with polling for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> css selector: div.TN.bzz.aHS-bnu]
+[INFO ] 2020-09-07 18:14:20.977 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 18:14:26.017 AllureLogger:28 - Getting text from the subject of a letter 
+[WARN ] 2020-09-07 18:14:26.579 AllureLogger:28 - Getting text from the subject of a letter 
+[WARN ] 2020-09-07 18:14:27.998 AllureLogger:28 - Getting text from the subject of a letter 
+[DEBUG] 2020-09-07 18:14:30.042 AllureLogger:18 - Waiting and getting the text from custom text-holder: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span]
+[INFO ] 2020-09-07 18:14:30.045 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:14:30.447 AllureLogger:18 - Waiting and getting the text from custom text-holder: [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span]
+[INFO ] 2020-09-07 18:14:30.453 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:14:30.479 AllureLogger:18 - Waiting and getting the text from custom text-holder: [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span]
+[INFO ] 2020-09-07 18:14:30.497 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:14:55.757 AllureLogger:13 - Calculating the size of letter List: 2
+[ERROR] 2020-09-07 18:14:55.562 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-09-07 18:14:55.561 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-09-07 18:14:57.365 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+[WARN ] 2020-09-07 18:14:57.767 AllureLogger:28 - Screenshot captured for test case:testSendAndDeleteLetter
+[ERROR] 2020-09-07 18:14:57.773 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+[WARN ] 2020-09-07 18:14:57.779 AllureLogger:28 - Screenshot captured for test case:testSendAndDeleteLetter
+[DEBUG] 2020-09-07 18:14:58.226 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]
+[INFO ] 2020-09-07 18:14:58.234 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 18:15:00.398 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net
+[INFO ] 2020-09-07 18:15:00.402 AllureLogger:13 - Selecting last letter check box
+[DEBUG] 2020-09-07 18:15:00.988 AllureLogger:18 - Checking the customelement: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]
+[DEBUG] 2020-09-07 18:15:01.194 AllureLogger:18 - Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked
+[INFO ] 2020-09-07 18:15:04.759 AllureLogger:13 - Deleting selected letter
+[DEBUG] 2020-09-07 18:15:05.977 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]
+[INFO ] 2020-09-07 18:15:05.978 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:15:11.887 AllureLogger:13 - Calculating the size of letter List: 1
+[DEBUG] 2020-09-07 18:15:12.479 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]
+[INFO ] 2020-09-07 18:15:12.484 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 18:15:14.099 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net
+[INFO ] 2020-09-07 18:15:14.229 AllureLogger:13 - Deleting default letter to clean up the mail box 
+[INFO ] 2020-09-07 18:15:14.237 AllureLogger:13 - Selecting last letter check box
+[DEBUG] 2020-09-07 18:15:14.289 AllureLogger:18 - Checking the customelement: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]
+[DEBUG] 2020-09-07 18:15:14.394 AllureLogger:18 - Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked
+[INFO ] 2020-09-07 18:15:16.795 AllureLogger:13 - Deleting selected letter
+[DEBUG] 2020-09-07 18:15:16.883 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (7457e647ceda49b843d52cbc66f5cb92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]
+[INFO ] 2020-09-07 18:15:16.900 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:15:19.150 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:15:19.935 AllureLogger:13 - Default letter deleted 
+[INFO ] 2020-09-07 18:15:19.984 AllureLogger:13 - I am in onTestSuccess method testSendAndDeleteLetter succeed
+[INFO ] 2020-09-07 18:15:19.989 AllureLogger:13 - Screenshot captured for test case:testSendAndDeleteLetter
+[WARN ] 2020-09-07 18:15:23.292 AllureLogger:28 - Driver quit
+[WARN ] 2020-09-07 18:15:24.396 AllureLogger:28 - Driver quit
+[WARN ] 2020-09-07 18:15:24.396 AllureLogger:28 - Driver quit
+[INFO ] 2020-09-07 18:15:33.911 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start
+[INFO ] 2020-09-07 18:15:34.745 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage
+[WARN ] 2020-09-07 18:15:34.755 AllureLogger:28 - Chrome driver is started
+[INFO ] 2020-09-07 18:15:40.453 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start
+[INFO ] 2020-09-07 18:15:40.538 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage
+[WARN ] 2020-09-07 18:15:40.540 AllureLogger:28 - Chrome driver is started
+[INFO ] 2020-09-07 18:15:54.959 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage
+[INFO ] 2020-09-07 18:15:54.963 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage
+[INFO ] 2020-09-07 18:15:54.964 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:15:54.967 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage
+[INFO ] 2020-09-07 18:15:54.972 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:15:54.978 AllureLogger:13 - Sending a default letter from: dimamalash5@gmail.com to recipient
+[INFO ] 2020-09-07 18:15:55.265 AllureLogger:13 - Setting data of the default letter from smptp-sender 
+[INFO ] 2020-09-07 18:15:56.029 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage
+[INFO ] 2020-09-07 18:15:56.030 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage
+[INFO ] 2020-09-07 18:15:56.032 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:15:56.034 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage
+[INFO ] 2020-09-07 18:15:56.035 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 18:15:56.038 AllureLogger:13 - Sending a default letter from: gavruloepam@gmail.com to recipient
+[INFO ] 2020-09-07 18:15:56.045 AllureLogger:13 - Setting data of the default letter from smptp-sender 
+[INFO ] 2020-09-07 18:15:57.296 AllureLogger:13 - Response from smtp-mail-transport: 250 2.0.0 OK  1599491755 l15sm6730825lfk.71 - gsmtp
+
+[INFO ] 2020-09-07 18:15:57.328 AllureLogger:13 - Response from smtp-mail-transport: 250 2.0.0 OK  1599491755 l29sm7093815lfp.11 - gsmtp
+
+[INFO ] 2020-09-07 18:15:57.341 AllureLogger:13 - Going to URL: https://www.gmail.com/
+[INFO ] 2020-09-07 18:15:57.378 AllureLogger:13 - Going to URL: https://www.gmail.com/
+[INFO ] 2020-09-07 18:16:17.947 AllureLogger:13 - Submitting email
+[DEBUG] 2020-09-07 18:16:18.952 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> id: identifierId]
+[INFO ] 2020-09-07 18:16:23.357 AllureLogger:13 - Submitting email
+[DEBUG] 2020-09-07 18:16:23.840 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> id: identifierId]
+[DEBUG] 2020-09-07 18:16:24.803 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> id: identifierNext]
+[INFO ] 2020-09-07 18:16:25.702 AllureLogger:13 - Submitting password and proceeding to HomePage
+[DEBUG] 2020-09-07 18:16:26.560 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> name: password]
+[INFO ] 2020-09-07 18:16:26.561 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:16:27.555 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> id: identifierNext]
+[INFO ] 2020-09-07 18:16:29.157 AllureLogger:13 - Submitting password and proceeding to HomePage
+[DEBUG] 2020-09-07 18:16:31.127 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> id: passwordNext]
+[WARN ] 2020-09-07 18:16:33.524 AllureLogger:28 - Verifying if account window is displayed 
+[DEBUG] 2020-09-07 18:16:51.492 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: Proxy element for: DefaultElementLocator 'By.name: password'
+[INFO ] 2020-09-07 18:16:51.499 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:17:19.729 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> id: passwordNext]
+[WARN ] 2020-09-07 18:17:23.994 AllureLogger:28 - Verifying if account window is displayed 
+[INFO ] 2020-09-07 18:17:39.295 AllureLogger:13 - Checking if custom popup: ( [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //img[@class='gb_La gbii']] ) is displayed
+[INFO ] 2020-09-07 18:17:59.244 AllureLogger:13 - Opening a new letter form
+[DEBUG] 2020-09-07 18:18:01.659 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> css selector: div.T-I.T-I-KE.L3]
+[INFO ] 2020-09-07 18:18:10.747 AllureLogger:13 - Filling fields of the letter
+[INFO ] 2020-09-07 18:18:13.411 AllureLogger:13 - Checking if custom popup: ( [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //img[@class='gb_La gbii']] ) is displayed
+[DEBUG] 2020-09-07 18:18:24.961 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //textarea[@class='vO']]
+[INFO ] 2020-09-07 18:18:24.962 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:18:28.090 AllureLogger:13 - Opening a new letter form
+[DEBUG] 2020-09-07 18:18:30.848 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> css selector: div.T-I.T-I-KE.L3]
+[INFO ] 2020-09-07 18:18:31.180 AllureLogger:13 - Waiting for the plain WebElement: (  name: subjectbox )
+[DEBUG] 2020-09-07 18:18:37.522 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='Am Al editable LW-avf tS-tW']]
+[INFO ] 2020-09-07 18:18:37.523 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:18:46.871 AllureLogger:13 - Sending the letter
+[DEBUG] 2020-09-07 18:18:47.553 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']]
+[INFO ] 2020-09-07 18:18:47.554 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:18:50.002 AllureLogger:13 - Filling fields of the letter
+[INFO ] 2020-09-07 18:18:51.221 AllureLogger:13 - Opening the page with sent letters
+[DEBUG] 2020-09-07 18:18:51.634 AllureLogger:18 - Waiting with polling for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> css selector: div.TN.bzz.aHS-bnu]
+[INFO ] 2020-09-07 18:18:51.635 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:18:55.998 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //textarea[@class='vO']]
+[INFO ] 2020-09-07 18:18:55.999 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 18:18:56.099 AllureLogger:28 - Getting text from the subject of a letter 
+[DEBUG] 2020-09-07 18:19:00.740 AllureLogger:18 - Waiting and getting the text from custom text-holder: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span]
+[INFO ] 2020-09-07 18:19:00.748 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:05.014 AllureLogger:13 - Calculating the size of letter List: 2
+[DEBUG] 2020-09-07 18:19:05.319 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]
+[INFO ] 2020-09-07 18:19:05.320 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:07.806 AllureLogger:13 - Waiting for the plain WebElement: (  name: subjectbox )
+[WARN ] 2020-09-07 18:19:07.857 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net
+[INFO ] 2020-09-07 18:19:07.858 AllureLogger:13 - Selecting last letter check box
+[DEBUG] 2020-09-07 18:19:08.022 AllureLogger:18 - Checking the customelement: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]
+[DEBUG] 2020-09-07 18:19:08.177 AllureLogger:18 - Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked
+[INFO ] 2020-09-07 18:19:11.769 AllureLogger:13 - Deleting selected letter
+[DEBUG] 2020-09-07 18:19:13.138 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]
+[INFO ] 2020-09-07 18:19:13.151 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 18:19:16.873 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='Am Al editable LW-avf tS-tW']]
+[INFO ] 2020-09-07 18:19:16.873 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:17.096 AllureLogger:13 - Calculating the size of letter List: 1
+[DEBUG] 2020-09-07 18:19:17.287 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]
+[INFO ] 2020-09-07 18:19:17.288 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 18:19:18.753 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net
+[INFO ] 2020-09-07 18:19:18.754 AllureLogger:13 - Deleting default letter to clean up the mail box 
+[INFO ] 2020-09-07 18:19:18.755 AllureLogger:13 - Selecting last letter check box
+[DEBUG] 2020-09-07 18:19:18.804 AllureLogger:18 - Checking the customelement: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]
+[DEBUG] 2020-09-07 18:19:18.858 AllureLogger:18 - Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked
+[INFO ] 2020-09-07 18:19:19.556 AllureLogger:13 - Deleting selected letter
+[DEBUG] 2020-09-07 18:19:19.756 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (802b77958d394157ee080daf13daeadf)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]
+[INFO ] 2020-09-07 18:19:19.758 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:20.768 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:21.188 AllureLogger:13 - Default letter deleted 
+[INFO ] 2020-09-07 18:19:21.190 AllureLogger:13 - I am in onTestSuccess method testSendAndDeleteLetter succeed
+[INFO ] 2020-09-07 18:19:21.190 AllureLogger:13 - Screenshot captured for test case:testSendAndDeleteLetter
+[INFO ] 2020-09-07 18:19:21.361 AllureLogger:13 - Sending the letter
+[WARN ] 2020-09-07 18:19:22.477 AllureLogger:28 - Driver quit
+[DEBUG] 2020-09-07 18:19:22.596 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']]
+[INFO ] 2020-09-07 18:19:22.597 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:26.707 AllureLogger:13 - Opening the page with sent letters
+[DEBUG] 2020-09-07 18:19:26.973 AllureLogger:18 - Waiting with polling for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> css selector: div.TN.bzz.aHS-bnu]
+[INFO ] 2020-09-07 18:19:26.975 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 18:19:29.463 AllureLogger:28 - Getting text from the subject of a letter 
+[DEBUG] 2020-09-07 18:19:31.165 AllureLogger:18 - Waiting and getting the text from custom text-holder: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span]
+[INFO ] 2020-09-07 18:19:31.167 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:32.280 AllureLogger:13 - Calculating the size of letter List: 2
+[DEBUG] 2020-09-07 18:19:32.381 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]
+[INFO ] 2020-09-07 18:19:32.382 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 18:19:33.057 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net
+[INFO ] 2020-09-07 18:19:33.059 AllureLogger:13 - Selecting last letter check box
+[DEBUG] 2020-09-07 18:19:33.271 AllureLogger:18 - Checking the customelement: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]
+[DEBUG] 2020-09-07 18:19:33.351 AllureLogger:18 - Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked
+[INFO ] 2020-09-07 18:19:34.450 AllureLogger:13 - Deleting selected letter
+[DEBUG] 2020-09-07 18:19:34.801 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]
+[INFO ] 2020-09-07 18:19:34.802 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:36.168 AllureLogger:13 - Calculating the size of letter List: 1
+[DEBUG] 2020-09-07 18:19:36.393 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]
+[INFO ] 2020-09-07 18:19:36.394 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 18:19:38.126 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net
+[INFO ] 2020-09-07 18:19:38.127 AllureLogger:13 - Deleting default letter to clean up the mail box 
+[INFO ] 2020-09-07 18:19:38.127 AllureLogger:13 - Selecting last letter check box
+[DEBUG] 2020-09-07 18:19:38.290 AllureLogger:18 - Checking the customelement: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]
+[DEBUG] 2020-09-07 18:19:38.431 AllureLogger:18 - Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked
+[INFO ] 2020-09-07 18:19:39.155 AllureLogger:13 - Deleting selected letter
+[DEBUG] 2020-09-07 18:19:39.212 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (fc08527f2b7a27271b9706ec7fc804e8)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]
+[INFO ] 2020-09-07 18:19:39.213 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:39.859 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 18:19:40.064 AllureLogger:13 - Default letter deleted 
+[INFO ] 2020-09-07 18:19:40.066 AllureLogger:13 - I am in onTestSuccess method testSendAndDeleteLetter succeed
+[INFO ] 2020-09-07 18:19:40.066 AllureLogger:13 - Screenshot captured for test case:testSendAndDeleteLetter
+[WARN ] 2020-09-07 18:19:40.802 AllureLogger:28 - Driver quit
+[INFO ] 2020-09-07 18:19:54.660 AllureLogger:13 - I am in onFinish method testcase.LogInSendLetterAndDeleteLetterTest
+[INFO ] 2020-09-07 20:34:21.244 AllureLogger:13 - I am in onStart method pageobject_gmail
+[INFO ] 2020-09-07 20:34:21.651 AllureLogger:13 - I am in onTestStart method testSendAndDeleteLetter start
+[INFO ] 2020-09-07 20:34:22.356 AllureLogger:13 - Initialize PageFactory in: pageobject.LoginPage
+[WARN ] 2020-09-07 20:34:22.381 AllureLogger:28 - Chrome driver is started
+[INFO ] 2020-09-07 20:34:22.416 AllureLogger:13 - Constants are extracted from the property file
+[INFO ] 2020-09-07 20:35:05.432 AllureLogger:13 - Initialize PageFactory in: pageobject.HomePage
+[INFO ] 2020-09-07 20:35:05.475 AllureLogger:13 - Initialize PageFactory in: pageobject.HandleLettersPage
+[INFO ] 2020-09-07 20:35:05.494 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[INFO ] 2020-09-07 20:35:05.593 AllureLogger:13 - Initialize PageFactory in: pageobject.SingleLetterPage
+[INFO ] 2020-09-07 20:35:05.605 AllureLogger:13 - Initialize PageFactory in: pageobject.SentLettersPage
+[WARN ] 2020-09-07 20:35:05.653 AllureLogger:28 - Extracting users data 
+[INFO ] 2020-09-07 20:35:07.218 AllureLogger:13 - Sending a default letter from: testepamivan@gmail.com to recipient
+[INFO ] 2020-09-07 20:35:07.355 AllureLogger:13 - Setting data of the default letter from smptp-sender 
+[INFO ] 2020-09-07 20:35:12.389 AllureLogger:13 - Response from smtp-mail-transport: 250 2.0.0 OK  1599500110 t19sm6965268ljj.100 - gsmtp
+
+[INFO ] 2020-09-07 20:35:12.434 AllureLogger:13 - Going to URL: https://www.gmail.com/
+[INFO ] 2020-09-07 20:35:26.635 AllureLogger:13 - Submitting email
+[DEBUG] 2020-09-07 20:35:29.603 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> id: identifierId]
+[DEBUG] 2020-09-07 20:35:32.471 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> id: identifierNext]
+[INFO ] 2020-09-07 20:35:34.465 AllureLogger:13 - Submitting password and proceeding to HomePage
+[DEBUG] 2020-09-07 20:35:46.050 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> name: password]
+[INFO ] 2020-09-07 20:35:46.052 AllureLogger:13 - Waiting for the ready state of document 
+[DEBUG] 2020-09-07 20:35:51.769 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> id: passwordNext]
+[WARN ] 2020-09-07 20:35:52.850 AllureLogger:28 - Verifying if account window is displayed 
+[INFO ] 2020-09-07 20:36:51.685 AllureLogger:13 - Checking if custom popup: ( [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //img[@class='gb_La gbii']] ) is displayed
+[INFO ] 2020-09-07 20:37:00.461 AllureLogger:13 - Opening a new letter form
+[DEBUG] 2020-09-07 20:37:00.739 AllureLogger:18 - Waiting and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> css selector: div.T-I.T-I-KE.L3]
+[INFO ] 2020-09-07 20:37:06.065 AllureLogger:13 - Filling fields of the letter
+[DEBUG] 2020-09-07 20:37:09.720 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //textarea[@class='vO']]
+[INFO ] 2020-09-07 20:37:09.721 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 20:37:14.057 AllureLogger:13 - Waiting for the plain WebElement: (  name: subjectbox )
+[DEBUG] 2020-09-07 20:37:15.795 AllureLogger:18 - Waiting, clearing and sending keys to Custom input: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='Am Al editable LW-avf tS-tW']]
+[INFO ] 2020-09-07 20:37:15.795 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 20:37:17.232 AllureLogger:13 - Sending the letter
+[DEBUG] 2020-09-07 20:37:17.316 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='T-I J-J5-Ji aoO v7 T-I-atl L3']]
+[INFO ] 2020-09-07 20:37:17.322 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 20:37:17.928 AllureLogger:13 - Opening the page with sent letters
+[DEBUG] 2020-09-07 20:37:18.054 AllureLogger:18 - Waiting with polling for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> css selector: div.TN.bzz.aHS-bnu]
+[INFO ] 2020-09-07 20:37:18.055 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 20:37:19.421 AllureLogger:28 - Getting text from the subject of a letter 
+[DEBUG] 2020-09-07 20:37:22.637 AllureLogger:18 - Waiting and getting the text from custom text-holder: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span]
+[INFO ] 2020-09-07 20:37:22.881 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 20:37:26.687 AllureLogger:13 - Calculating the size of letter List: 3
+[DEBUG] 2020-09-07 20:37:27.078 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]
+[INFO ] 2020-09-07 20:37:27.080 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 20:37:27.545 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lw@ukr.net
+[INFO ] 2020-09-07 20:37:27.546 AllureLogger:13 - Selecting last letter check box
+[DEBUG] 2020-09-07 20:37:27.633 AllureLogger:18 - Checking the customelement: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]
+[DEBUG] 2020-09-07 20:37:27.780 AllureLogger:18 - Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked
+[INFO ] 2020-09-07 20:37:28.687 AllureLogger:13 - Deleting selected letter
+[DEBUG] 2020-09-07 20:37:29.028 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]
+[INFO ] 2020-09-07 20:37:29.030 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 20:37:29.716 AllureLogger:13 - Calculating the size of letter List: 2
+[DEBUG] 2020-09-07 20:37:29.841 AllureLogger:18 - Waiting and getting the attribute from custom text-holder: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='yX xY ']/div[@class='yW']/span]
+[INFO ] 2020-09-07 20:37:29.842 AllureLogger:13 - Waiting for the ready state of document 
+[WARN ] 2020-09-07 20:37:30.279 AllureLogger:28 - Getting the recipient's email of the last letter in the list of letters: nazar_lwork@ukr.net
+[INFO ] 2020-09-07 20:37:30.283 AllureLogger:13 - Deleting default letter to clean up the mail box 
+[INFO ] 2020-09-07 20:37:30.284 AllureLogger:13 - Selecting last letter check box
+[DEBUG] 2020-09-07 20:37:30.366 AllureLogger:18 - Checking the customelement: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']]
+[DEBUG] 2020-09-07 20:37:30.392 AllureLogger:18 - Waiting and Verifying if Custom check-box: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='oZ-x3 xY']] is checked
+[INFO ] 2020-09-07 20:37:31.125 AllureLogger:13 - Deleting selected letter
+[DEBUG] 2020-09-07 20:37:31.775 AllureLogger:18 - Waiting for the document ready state and Clicking the Custom-button: [[ChromeDriver: chrome on WINDOWS (44a66fbfa30ef6c037091fb005427758)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]/td[@class='bq4 xY']/ul/li[@class='bqX bru']]
+[INFO ] 2020-09-07 20:37:31.776 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 20:37:32.497 AllureLogger:13 - Waiting for the ready state of document 
+[INFO ] 2020-09-07 20:37:32.623 AllureLogger:13 - Default letter deleted 
+[INFO ] 2020-09-07 20:37:32.635 AllureLogger:13 - I am in onTestSuccess method testSendAndDeleteLetter succeed
+[INFO ] 2020-09-07 20:37:32.636 AllureLogger:13 - Screenshot captured for test case:testSendAndDeleteLetter
+[WARN ] 2020-09-07 20:37:39.847 AllureLogger:28 - Driver quit
+[INFO ] 2020-09-07 20:37:45.751 AllureLogger:13 - I am in onFinish method pageobject_gmail
