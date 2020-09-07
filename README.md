@@ -10,11 +10,11 @@ The project to test Logination, Creation of a new Letter, and Deleting it for Gm
 
  
  
-**Precondition of test** - Sending of a default letter to compare with the main letter by their recipient and compare the size of sent letters list before and after deleting of the main letter. Sending is done with the help of smtp mail sender. All accounts from userdata.json already support less secure apps. In order to work with a new account- logIn to google account and run the following url - https://myaccount.google.com/lesssecureapps?utm_source=google-account&utm_medium=web&hl=uk
+**Precondition of test** - Sending of a default letter to compare with the main letter by their recipient and compare the size of sent letters list before and after deleting of the main letter. Sending is done with the help of smtp mail sender. All accounts from src/main/resources/userdata.json already support less secure apps. In order to work with a new account- logIn to google account and run the following url - https://myaccount.google.com/lesssecureapps?utm_source=google-account&utm_medium=web&hl=uk
 
 **Parallel run** - Test uses DataProvider with 5 user-data options. Initially it runs 3 threads and 2 more after it. To run test - tape _mvn clean test_ from the command line.               
 
-Reporting - allure.
+Reporting - allure. Reports generated to target/allure-results
 
 **Recent reports** with all logs and screenshots 
 
