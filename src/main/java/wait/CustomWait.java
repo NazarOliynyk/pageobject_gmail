@@ -26,7 +26,10 @@ public class CustomWait {
 
     public static void waitUntilDocumentReadyState() {
         logToAllureInfo("Waiting for the ready state of document ");
-        getNewFluentWait().until((ExpectedCondition<Boolean>) wd ->
+        getNewFluentWait()
+                .withTimeout(Duration.ofSeconds(FLUENT_WAIT_TIMEOUT))
+                .pollingEvery(Duration.ofSeconds(POLLING))
+                .until((ExpectedCondition<Boolean>) wd ->
                 ((JavascriptExecutor) Objects.requireNonNull(wd))
                         .executeScript("return document.readyState")
                         .equals("complete"));

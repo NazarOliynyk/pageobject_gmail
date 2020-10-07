@@ -139,3 +139,100 @@ Driver info: driver.version: unknown
 [ERROR] 2020-09-07 18:14:55.561 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
 [ERROR] 2020-09-07 18:14:57.365 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (197601c602dcb1065c83fea58d57cd12)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
 [ERROR] 2020-09-07 18:14:57.773 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (946671875f000f3df19d08b3a7d6be00)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+[ERROR] 2020-10-07 10:10:41.910 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 10:10:41.910 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 10:10:41.910 AllureLogger:23 - Error message:  Logination failed did not expect to find [true] but found [false]
+[ERROR] 2020-10-07 10:10:41.910 AllureLogger:23 - Error message:  Logination failed did not expect to find [true] but found [false]
+[ERROR] 2020-10-07 10:10:42.066 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 10:10:42.066 AllureLogger:23 - Error message:  Logination failed did not expect to find [true] but found [false]
+[ERROR] 2020-10-07 10:12:17.359 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 10:12:17.359 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 10:12:17.359 AllureLogger:23 - Error message:  Logination failed did not expect to find [true] but found [false]
+[ERROR] 2020-10-07 10:12:17.359 AllureLogger:23 - Error message:  Logination failed did not expect to find [true] but found [false]
+[ERROR] 2020-10-07 10:25:08.240 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 10:25:08.241 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (9d5ecc41aff237492434a9bfd842f220)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 10:44:53.540 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 10:44:53.541 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (601c6340c56eb0c29cdc1185b594cc8b)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 10:47:59.986 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 10:47:59.986 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (a11bac7a99982ec470ae600d5d032021)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 10:49:12.261 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 10:49:12.262 AllureLogger:23 - Error message: Expected condition failed: waiting for wait.CustomWait$$Lambda$374/368599534@4cdc1d81 (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 11:07:26.203 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 11:07:26.203 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (dd0cf3488c74049fa1fdd5abf1752c00)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 11:46:17.130 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 11:46:17.131 AllureLogger:23 - Error message: Expected condition failed: waiting for wait.CustomWait$$Lambda$374/180676240@6c53f543 (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 11:56:10.282 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 11:56:10.283 AllureLogger:23 - Error message: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NAZAR_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 28e617dbc5d8fc5b216801c21618274e
+[ERROR] 2020-10-07 11:56:10.917 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 11:56:10.918 AllureLogger:23 - Error message: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NAZAR_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59618}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b8e71db46c21ce01b9c8e00b505f7a3
+[ERROR] 2020-10-07 11:56:13.024 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 11:56:13.025 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (6c9331e26130bc8ebdc97659269d9376)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 11:56:31.718 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 11:56:31.718 AllureLogger:23 - Error message: Expected condition failed: waiting for wait.CustomWait$$Lambda$845/459062372@6c047f35 (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 11:58:01.785 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 11:58:01.787 AllureLogger:23 - Error message: Expected condition failed: waiting for wait.CustomWait$$Lambda$374/1761048302@19b0f61c (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 12:06:01.908 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 12:06:01.909 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (7d7eed68b9da67dcc04c3a146d444e92)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 12:06:42.232 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 12:06:42.232 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (32cb7c86c501019d0242572fe4e957ec)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 12:11:36.615 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 12:11:36.616 AllureLogger:23 - Error message: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (db84aa0d3d2c49fbfce30b7539e4c928)] -> xpath: //div[@class='BltHke nH oy8Mbf']//div[@class='Cp' and preceding-sibling::div[@class='Cp']]//table/tbody/tr[1]//span[@class='bog']/span] (tried for 0 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: unknown
+[ERROR] 2020-10-07 12:23:52.228 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-10-07 12:23:52.229 AllureLogger:23 - Error message: stale element reference: element is not attached to the page document
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NAZAR_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 87e5d73d4495cf92af79d091d4a06a58

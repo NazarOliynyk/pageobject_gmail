@@ -5,13 +5,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import static logger.AllureLogger.logToAllureDebug;
-import static wait.CustomWait.getNewFluentWait;
-import static wait.CustomWait.waitUntilDocumentReadyState;
+import static wait.CustomWait.*;
 
 public class TextHolder extends Element {
 
     public TextHolder(WebElement webElement) {
         super(webElement);
+    }
+
+    public String waitAndGetText() {
+        logToAllureDebug("Waiting and getting the text from custom text-holder: " + getLocator());
+        return waitWithPollingUntilVisibilityAndGetElement(webElement).getText();
     }
 
     public String waitUntilDocumentIsReadyAndGetText() {

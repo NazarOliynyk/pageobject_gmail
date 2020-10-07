@@ -47,6 +47,7 @@ public class LogInSendLetterAndDeleteLetterTest {
 
         MessageDTO messageDTO = new MessageDTO();
         sendingLettersBO.sendNewLetter(messageDTO);
+
         Assert.assertEquals(sendingLettersBO.getLastLetterSubject(), messageDTO.getSubject(),
                 " Subject of the letter does not match !");
         SentLettersDTO dtoAfterSending = sendingLettersBO.getStateOfTheLettersList(ATTRIBUTE_EMAIL);

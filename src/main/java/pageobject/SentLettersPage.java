@@ -43,7 +43,7 @@ public class SentLettersPage extends AbstractPage {
 
     public String getLastLetterSubject() {
         logToAllureWarn("Getting text from the subject of a letter ");
-        return subjectOfTheLastLetterTag.waitUntilDocumentIsReadyAndGetText();
+        return subjectOfTheLastLetterTag.waitAndGetText();
     }
 
     public String getRecipientEmailOfTheLastLetter(String attribute) {
