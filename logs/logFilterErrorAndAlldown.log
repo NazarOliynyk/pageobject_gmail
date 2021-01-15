@@ -236,3 +236,51 @@ System info: host: 'EPUALVIW060E', ip: '192.168.0.101', os.name: 'Windows 10', o
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\NAZAR_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57121}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
 Session ID: 87e5d73d4495cf92af79d091d4a06a58
+[ERROR] 2020-12-07 09:36:51.748 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:36:51.748 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:36:51.780 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:36:51.780 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:36:51.809 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:36:53.308 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:39:06.477 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:39:07.542 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:53:27.038 AllureLogger:23 - 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j13sm2819717lfk.164 - gsmtp
+
+[ERROR] 2020-12-07 09:54:54.523 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:54:54.524 AllureLogger:23 - Error message:  Logination failed did not expect to find [true] but found [false]
+[ERROR] 2020-12-07 09:57:27.104 AllureLogger:23 - 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e2sm1482529lft.20 - gsmtp
+
+[ERROR] 2020-12-07 09:57:47.518 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 09:57:47.519 AllureLogger:23 - Error message:  The recipientEmail of the last letter has not changed after deleting  ! did not expect to find [nazar_lw@ukr.net] but found [nazar_lw@ukr.net]
+[ERROR] 2020-12-07 10:10:04.740 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-07 10:10:04.741 AllureLogger:23 - Error message: stale element reference: element is not attached to the page document
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\NAZAR_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64056}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 31bbf9bd33c3017e9764b528a1747297
+[ERROR] 2020-12-21 17:20:29.496 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-21 17:20:29.500 AllureLogger:23 - Error message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\NAZAR_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58856}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 66f72e5a873817c04d886adb162d1934
+*** Element info: {Using=xpath, value=//img[@class='gb_Ha gbii']}
+[ERROR] 2020-12-21 17:20:29.512 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2020-12-21 17:20:29.513 AllureLogger:23 - Error message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'EPUALVIW060E', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\NAZAR_~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58856}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 66f72e5a873817c04d886adb162d1934
+[ERROR] 2021-01-08 18:15:21.172 AllureLogger:23 - I am in onTestFailure method testSendAndDeleteLetter failed
+[ERROR] 2021-01-08 18:15:21.173 AllureLogger:23 - Error message:  Logination failed did not expect to find [true] but found [false]

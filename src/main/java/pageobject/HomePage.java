@@ -9,7 +9,7 @@ import static logger.AllureLogger.logToAllureWarn;
 
 public class HomePage extends AbstractPage {
 
-    @FindBy(xpath = "//img[@class='gb_Ia gbii']")
+    @FindBy(xpath = "//img[@class='gb_Ha gbii']")
     private PopUp accountWindow;
 
     @FindBy(id = "gb_71")

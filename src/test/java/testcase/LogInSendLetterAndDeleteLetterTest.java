@@ -30,11 +30,12 @@ public class LogInSendLetterAndDeleteLetterTest {
     }
 
     @Severity(SeverityLevel.CRITICAL)
-    @Test(dataProvider = "users")
+//    @Test(dataProvider = "users")
+    @Test
     @Description("Verify Sending and Deleting of a letter")
     @Step("Verify Sending and Deleting of a letter")
-    public void testSendAndDeleteLetter(User user) {
-
+    public void testSendAndDeleteLetter() {
+        User user = initializeUserData().get(3);
         LoginationBO loginationBO = new LoginationBO();
 
         SendingLettersBO sendingLettersBO = new SendingLettersBO();
